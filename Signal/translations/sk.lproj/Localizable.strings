@@ -155,7 +155,7 @@
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Chyba";
 
 /* No comment provided by engineer. */
-"APP_LAUNCH_FAILURE_CHECK_DATABASE" = "Run Database Integrity Check";
+"APP_LAUNCH_FAILURE_CHECK_DATABASE" = "Spustiť kontrolu integrity databázy";
 
 /* Error indicating that the app could not launch because the database could not be loaded. */
 "APP_LAUNCH_FAILURE_COULD_NOT_LOAD_DATABASE" = "Nepodarilo sa načítať databázu";
@@ -380,13 +380,13 @@
 "BADGE_DETAILS_GIVE_A_BOOST" = "Začať podporovať Signal";
 
 /* String explaing to the user that their boost badge has expired on the badge expiry sheetsheet. */
-"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "Your Boost badge has expired and is no longer visible on your profile.\n\nYou can keep using Signal but to support technology that is built for you, consider becoming a sustainer by making a monthly donation.";
+"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "Váš odznak Boost vypršal a vo vašom profile sa už nezobrazuje.\n\nSignal môžete používať naďalej, ale pre podporu technológie vyvíjanej pre vás, zvážte sa, prosím, stať sustainerom posielaním mesačného príspevku.";
 
 /* String explaing to the user that their boost badge has expired while they are a current subscription sustainer on the badge expiry sheetsheet. */
 "BADGE_EXIPRED_BOOST_CURRENT_SUSTAINER_BODY_FORMAT" = "Platnosť vášho odznaku Podporovateľa vypršala a už sa vo vašom profile nezobrazuje.\n\nSvoj odznak Podporovateľ môžete znovu aktivovať na ďalších 30 dní jednorazovým príspevkom.";
 
 /* String explaing to the user that their subscription badge has expired on the badge expiry sheetsheet. Embed {badge name}. */
-"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Your recurring monthly donation was automatically cancelled because you were inactive for too long. Your %@ badge is no longer visible on your profile.\n\nYou can keep using Signal but to support the app and reactivate your badge, renew now.";
+"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Váš pravidelný mesačný príspevok bol automaticky zrušený, pretože ste boli neaktívny príliš dlho. Váš odznak %@ sa vo vašom profile už nezobrazuje.\n\nSignal môžete používať naďalej, ale pre podporu aplikácie a opätovnú aktiváciu vášho odznaku, obnovte posielanie príspevku teraz.";
 
 /* Button title for boost on the badge expiration sheet, used if the user is not already a sustainer. */
 "BADGE_EXPIRED_BOOST_RENEWAL_BUTTON" = "Staňte sa Sustainerom";
@@ -419,7 +419,7 @@
 "BADGE_THANKS_TOGGLE_FOOTER" = "Ak máte viac ako jeden odznak, môžete si jeden vybrať, ktorý sa zobrazí ostatným vo vašom profile.";
 
 /* String explaing to the user that they've earned a badge on the badge thank you sheet. Embed {badge name}. */
-"BADGE_THANKS_YOU_EARNED_FORMAT" = "You’ve earned a %@ badge. Display this badge on your profile to build awareness for donating to Signal.";
+"BADGE_THANKS_YOU_EARNED_FORMAT" = "Získali ste odznak %@. Zobrazte tento odznak vo vašom profile, aby ste zvyšovali povedomie o prispievaní na Signal.";
 
 /* Accessibility label for banner close button */
 "BANNER_CLOSE_ACCESSIBILITY_LABEL" = "Zatvoriť banner";
@@ -500,7 +500,7 @@
 "BOOST_VIEW_AMOUNT_LABEL" = "Nastavte menu";
 
 /* The body text for the donate to signal view */
-"BOOST_VIEW_BODY" = "Make a one-time donation and earn a Boost badge for 30 days.";
+"BOOST_VIEW_BODY" = "Pošlite jednorázový príspevok a získajte odznak Boost na 30 dní.";
 
 /* The body text for the donate to signal view, embeds {{Expiration}} */
 "BOOST_VIEW_BODY_WITH_EXPIRATION_FORMAT" = "Váš odznak podporovateľa vyprší %@.";
@@ -1331,19 +1331,19 @@
 "CUSTOM_CHAT_COLOR_SETTINGS_TOOLTIP" = "Potiahnite pre zmenu smeru farebného prechodu";
 
 /* Button to run the database integrity check */
-"DATABASE_INTEGRITY_CHECK_ACTION_RUN" = "Run";
+"DATABASE_INTEGRITY_CHECK_ACTION_RUN" = "Spustiť";
 
 /* Message for alert before running a database integrity check */
-"DATABASE_INTEGRITY_CHECK_MESSAGE" = "This may take a while (several minutes or more) depending on how much you have used Signal. It is safe to close Signal if it is taking too long.";
+"DATABASE_INTEGRITY_CHECK_MESSAGE" = "Môže to chvíľu trvať (niekoľko minút alebo viac) v závislosti od toho, koľko ste používali Signal. Ak to trvá príliš dlho, Signal môžete pokojne zatvoriť.";
 
 /* Button to save database integrity check results to the debug log */
-"DATABASE_INTEGRITY_CHECK_RESULTS_ACTION_LOG" = "Add to Debug Log";
+"DATABASE_INTEGRITY_CHECK_RESULTS_ACTION_LOG" = "Pridať do denníka ladenia";
 
 /* Title for alert after running a database integrity check */
-"DATABASE_INTEGRITY_CHECK_RESULTS_TITLE" = "Integrity check results";
+"DATABASE_INTEGRITY_CHECK_RESULTS_TITLE" = "Výsledky kontroly integrity";
 
 /* Title for alert before running a database integrity check */
-"DATABASE_INTEGRITY_CHECK_TITLE" = "Run database integrity check?";
+"DATABASE_INTEGRITY_CHECK_TITLE" = "Spustiť kontrolu integrity databázy?";
 
 /* Subtitle shown while the app is updating its database. */
 "DATABASE_VIEW_OVERLAY_SUBTITLE" = "Môže to trvať pár minút.";
@@ -1634,10 +1634,10 @@
 "DONATION_RECEIPT_DETAILS" = "Podrobnosti";
 
 /* Text on the button that exports the receipt */
-"DONATION_RECEIPT_EXPORT_RECEIPT_BUTTON" = "Share Receipt";
+"DONATION_RECEIPT_EXPORT_RECEIPT_BUTTON" = "Zdieľať potvrdenku";
 
 /* Footer text at the bottom of donation receipts */
-"DONATION_RECEIPT_FOOTER" = "Thank you for supporting Signal. Your contribution helps fuel the mission of developing open source privacy technology that protects free expression and enables secure global communication for millions around the world. If you’re a resident of the United States, please retain this receipt for your tax records. Signal Technology Foundation is a tax-exempt nonprofit organization in the United States under section 501c3 of the Internal Revenue Code. Our Federal Tax ID is 82-4506840.";
+"DONATION_RECEIPT_FOOTER" = "Ďakujeme, že podporujete Signal. Váš príspevok pomáha poháňať poslanie vyvíjania technológie zameranej na súkromie s otvoreným zdrojovým kódom, čo chráni slobodu vyjadrovania a umožňuje bezpečnú globálnu komunikáciu pre milióny ľudí na celom svete. Ak ste občanom Spojených štátov, prosím, uchovajte si túto potvrdenku pre vaše daňové záznamy. Signal Technology Foundation je nezisková organizácia oslobodená od platenia daní v Spojených štátoch, podľa sekcie 501c3 zásad o štátnych príjmoch z vnútorných zdrojov. Naše federálne daňové ID je 82-4506840.";
 
 /* Title for one-time donation receipts */
 "DONATION_RECEIPT_ONE_TIME" = "Raz";
@@ -1649,7 +1649,7 @@
 "DONATION_RECEIPT_TITLE" = "Potvrdenie o dare";
 
 /* Section title for donation type on receipts */
-"DONATION_RECEIPT_TYPE" = "Type";
+"DONATION_RECEIPT_TYPE" = "Typ";
 
 /* Title of view where you can see all of your donation receipts, or button to take you there */
 "DONATION_RECEIPTS" = "Potvrdenia o daroch";
@@ -4643,10 +4643,10 @@
 "QUOTED_REPLY_REACTION_TO_OWN_STORY" = "Reagoval na váš príbeh";
 
 /* Header label that appears above quoted messages when the quoted content was includes a reaction to a story. Embeds {{ story author name }} */
-"QUOTED_REPLY_REACTION_TO_STORY_FORMAT" = "Reacted to %@’s story";
+"QUOTED_REPLY_REACTION_TO_STORY_FORMAT" = "Reakcia na príbeh používateľa %@";
 
 /* Message header when you are quoting a story. Embeds {{ story author name }} */
-"QUOTED_REPLY_STORY_AUTHOR_INDICATOR_FORMAT" = "%@ · Story";
+"QUOTED_REPLY_STORY_AUTHOR_INDICATOR_FORMAT" = "%@ · Príbeh";
 
 /* Indicates this message is a quoted reply to an attachment of unknown type. */
 "QUOTED_REPLY_TYPE_ATTACHMENT" = "Príloha";
@@ -6269,10 +6269,10 @@
 "SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Signal je nezisková organizácia bez inzerentov, alebo investorov, ktorú podporujú iba ľudia, ktorí ju využívajú a oceňujú. Poskytnite pravidelný mesačný dar a získajte odznak profilu, aby ste mohli zdieľať svoju podporu.";
 
 /* Second block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Signal is committed to developing open source privacy technology that protects free expression and enables secure global communication.\n\nYour donation fuels this cause and pays for the development and operations of an app used by millions for private communication. No ads. No trackers. No kidding.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Signal je zaviazaný vývoju technológie zameranej na súkromie s otvoreným zdrojovým kódom chrániacej slobodu vyjadrovania a umožňujúcej bezpečnú globálnu komunikáciu.\n\nVáš príspevok poháňa toto poslanie a hradí výdavky spojené s vývojom a prevádzkou aplikácie používanej miliónmi ľudí na súkromnú komunikáciu. Žiadne reklamy. Žiadne sledovanie. Žiadne vtipy.";
 
 /* Title for the signal sustainer read more view */
-"SUSTAINER_READ_MORE_TITLE" = "Support technology that is built for you—not for your data—by joining the community that sustains it.";
+"SUSTAINER_READ_MORE_TITLE" = "Podporte technológiu vyvíjanú pre vás—nie pre vaše údaje—pripojením sa ku komunite, ktorá ju podporuje.";
 
 /* Why Contribute title for the signal sustainer read more view */
 "SUSTAINER_READ_MORE_WHY_CONTRIBUTE" = "Prečo podporiť?";
@@ -6338,7 +6338,7 @@
 "SUSTAINER_VIEW_PROCESSING_TRANSACTION" = "Prebieha spracovanie transakcie...";
 
 /* Read More tappable text in sustainer view body */
-"SUSTAINER_VIEW_READ_MORE" = "Read more.";
+"SUSTAINER_VIEW_READ_MORE" = "Čítaj viac.";
 
 /* Renewal date text for sustainer view level, embeds {{renewal date}} */
 "SUSTAINER_VIEW_RENEWAL" = "Obnovuje %@";

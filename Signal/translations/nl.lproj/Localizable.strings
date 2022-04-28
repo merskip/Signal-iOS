@@ -155,7 +155,7 @@
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Fout";
 
 /* No comment provided by engineer. */
-"APP_LAUNCH_FAILURE_CHECK_DATABASE" = "Run Database Integrity Check";
+"APP_LAUNCH_FAILURE_CHECK_DATABASE" = "Voer een databank-integriteitscontrole uit";
 
 /* Error indicating that the app could not launch because the database could not be loaded. */
 "APP_LAUNCH_FAILURE_COULD_NOT_LOAD_DATABASE" = "Kon databank niet laden";
@@ -257,7 +257,7 @@
 "ATTACHMENT_ERROR_COULD_NOT_PARSE_IMAGE" = "Kan afbeelding niet verwerken.";
 
 /* Attachment error message for image attachments in which metadata could not be removed */
-"ATTACHMENT_ERROR_COULD_NOT_REMOVE_METADATA" = "Kan metagegevens niet uit afbeelding verwijderen.";
+"ATTACHMENT_ERROR_COULD_NOT_REMOVE_METADATA" = "Kan metagegevens niet uit afbeelding wissen.";
 
 /* Attachment error message for image attachments which could not be resized */
 "ATTACHMENT_ERROR_COULD_NOT_RESIZE_IMAGE" = "Afbeelding verkleinen mislukt.";
@@ -380,13 +380,13 @@
 "BADGE_DETAILS_GIVE_A_BOOST" = "Help Signal met een eenmalige bijdrage";
 
 /* String explaing to the user that their boost badge has expired on the badge expiry sheetsheet. */
-"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "Your Boost badge has expired and is no longer visible on your profile.\n\nYou can keep using Signal but to support technology that is built for you, consider becoming a sustainer by making a monthly donation.";
+"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "Je ‘eenmalige donateur’-bagde is verlopen en is daarom niet langer voor anderen zichtbaar op je profiel.\n\nJe kunt Signal gewoon blijven gebruiken, maar als je Signal ook wilt helpen mogelijk maken overweeg dan om maandelijkse donaties in te stellen.";
 
 /* String explaing to the user that their boost badge has expired while they are a current subscription sustainer on the badge expiry sheetsheet. */
 "BADGE_EXIPRED_BOOST_CURRENT_SUSTAINER_BODY_FORMAT" = "Je ‘eenmalige donateur’-badge is verlopen en is daarom niet langer voor anderen zichtbaar op je profiel.\n\nJe kunt je ‘eenmalige donateur’-badge opniew voor 30 dagen krijgen als je opnieuw een eenmalige donatie doet.";
 
 /* String explaing to the user that their subscription badge has expired on the badge expiry sheetsheet. Embed {badge name}. */
-"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Your recurring monthly donation was automatically cancelled because you were inactive for too long. Your %@ badge is no longer visible on your profile.\n\nYou can keep using Signal but to support the app and reactivate your badge, renew now.";
+"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Je maandelijkse donaties zijn automatisch stopgezet omdat je te lang inactief bent geweest. Je ‘%@’-badge is niet langer voor anderen te zien op je profiel.\n\nJe kunt Signal gewoon blijven gebruiken, maar als je Signal ook wilt helpen mogelijk maken of als je graag je badge wilt houden dan is dit het moment om je maandelijkse donaties te vernieuwen.";
 
 /* Button title for boost on the badge expiration sheet, used if the user is not already a sustainer. */
 "BADGE_EXPIRED_BOOST_RENEWAL_BUTTON" = "Vanaf nu maandelijks doneren";
@@ -419,7 +419,7 @@
 "BADGE_THANKS_TOGGLE_FOOTER" = "Als je meerdere badges hebt dan kun je er één kiezen om voor anderen op je profiel weer te geven.";
 
 /* String explaing to the user that they've earned a badge on the badge thank you sheet. Embed {badge name}. */
-"BADGE_THANKS_YOU_EARNED_FORMAT" = "You’ve earned a %@ badge. Display this badge on your profile to build awareness for donating to Signal.";
+"BADGE_THANKS_YOU_EARNED_FORMAT" = "Je hebt een ‘%@’-badge verdiend. Als je deze laat zien op je profiel dan leren via jou andere mensen dat Signal afhankelijk is van donaties.";
 
 /* Accessibility label for banner close button */
 "BANNER_CLOSE_ACCESSIBILITY_LABEL" = "Banier sluiten";
@@ -500,7 +500,7 @@
 "BOOST_VIEW_AMOUNT_LABEL" = "Valuta instellen";
 
 /* The body text for the donate to signal view */
-"BOOST_VIEW_BODY" = "Make a one-time donation and earn a Boost badge for 30 days.";
+"BOOST_VIEW_BODY" = "Doneer eenmalig en verdien de ‘Eenmalige donateur’-badge voor 30 dagen.";
 
 /* The body text for the donate to signal view, embeds {{Expiration}} */
 "BOOST_VIEW_BODY_WITH_EXPIRATION_FORMAT" = "Je ‘Eenmalige donateur’-badge verloopt op %@.";
@@ -542,7 +542,7 @@
 "BUTTON_EDIT" = "Aanpassen";
 
 /* Label for the 'mute' button. */
-"BUTTON_MUTE" = "Microfoon dempen";
+"BUTTON_MUTE" = "Meldingen dempen";
 
 /* Label for the 'next' button. */
 "BUTTON_NEXT" = "Volgende";
@@ -737,13 +737,13 @@
 "CHAT_COLOR_SETTINGS_AUTO" = "Auto";
 
 /* Message for the 'delete chat color confirm alert' in the chat color settings view. */
-"CHAT_COLOR_SETTINGS_DELETE_ALERT_MESSAGE_1" = "Deze zelfgekozen kleur wordt in 1 gesprek gebruikt. Wil je het voor dat gesprek verwijderen?";
+"CHAT_COLOR_SETTINGS_DELETE_ALERT_MESSAGE_1" = "Deze zelfgekozen kleur wordt nog in 1 gesprek gebruikt. Wil je het voor dat gesprek wissen?";
 
 /* Message for the 'delete chat color confirm alert' in the chat color settings view. Embeds: {{ the number of conversations that use this chat color }}. */
-"CHAT_COLOR_SETTINGS_DELETE_ALERT_MESSAGE_N_FORMAT" = "Deze zelfgekozen kleur wordt in %@ gesprekken gebruikt. Wil je het voor die gesprekken verwijderen?";
+"CHAT_COLOR_SETTINGS_DELETE_ALERT_MESSAGE_N_FORMAT" = "Deze zelfgekozen kleur wordt nog in %@ gesprekken gebruikt. Wil je het voor al die gesprekken wissen?";
 
 /* Title for the 'delete chat color confirm alert' in the chat color settings view. */
-"CHAT_COLOR_SETTINGS_DELETE_ALERT_TITLE" = "Kleur verwijderen";
+"CHAT_COLOR_SETTINGS_DELETE_ALERT_TITLE" = "Kleur wissen";
 
 /* Title for the chat color settings view. */
 "CHAT_COLOR_SETTINGS_TITLE" = "Gesprekskleur";
@@ -803,7 +803,7 @@
 "CONFIRM_DELETE_LINKED_DATA_TITLE" = "Weet je zeker dat je alle gegevens wilt wissen?";
 
 /* Alert body */
-"CONFIRM_LEAVE_GROUP_DESCRIPTION" = "Je zult geen berichten in deze groep meer kunnen verzenden of ontvangen.";
+"CONFIRM_LEAVE_GROUP_DESCRIPTION" = "Je zult dit groepsgesprek nog wel kunnen teruglezen maar je zult niet langer berichten kunnen verzenden of ontvangen.";
 
 /* Alert title */
 "CONFIRM_LEAVE_GROUP_TITLE" = "Wil je de groep echt verlaten?";
@@ -1331,19 +1331,19 @@
 "CUSTOM_CHAT_COLOR_SETTINGS_TOOLTIP" = "Sleep om de richting van het verloop te veranderen";
 
 /* Button to run the database integrity check */
-"DATABASE_INTEGRITY_CHECK_ACTION_RUN" = "Run";
+"DATABASE_INTEGRITY_CHECK_ACTION_RUN" = "Uitvoeren";
 
 /* Message for alert before running a database integrity check */
-"DATABASE_INTEGRITY_CHECK_MESSAGE" = "This may take a while (several minutes or more) depending on how much you have used Signal. It is safe to close Signal if it is taking too long.";
+"DATABASE_INTEGRITY_CHECK_MESSAGE" = "Dit kan even duren (een aantal minuten of langer) afhankelijk van hoeveel je gebruik hebt gemaakt van Signal. Het is veilig om Signal te sluiten als het te lang duurt.";
 
 /* Button to save database integrity check results to the debug log */
-"DATABASE_INTEGRITY_CHECK_RESULTS_ACTION_LOG" = "Add to Debug Log";
+"DATABASE_INTEGRITY_CHECK_RESULTS_ACTION_LOG" = "Aan foutopsporingslog toevoegen";
 
 /* Title for alert after running a database integrity check */
-"DATABASE_INTEGRITY_CHECK_RESULTS_TITLE" = "Integrity check results";
+"DATABASE_INTEGRITY_CHECK_RESULTS_TITLE" = "Resultaten integriteitscontrole";
 
 /* Title for alert before running a database integrity check */
-"DATABASE_INTEGRITY_CHECK_TITLE" = "Run database integrity check?";
+"DATABASE_INTEGRITY_CHECK_TITLE" = "Databank-integriteitscontrole uitvoeren?";
 
 /* Subtitle shown while the app is updating its database. */
 "DATABASE_VIEW_OVERLAY_SUBTITLE" = "Dit kan enkele minuten duren.";
@@ -1403,7 +1403,7 @@
 "DEBUG_LOG_ALERT_TITLE" = "Nog één stap";
 
 /* Message of the alert before redirecting to GitHub Issues. */
-"DEBUG_LOG_GITHUB_ISSUE_ALERT_MESSAGE" = "De verwijzing in Git is gekopieerd naar je klembord. Je wordt zo dadelijk doorverwezen naar GitHub.";
+"DEBUG_LOG_GITHUB_ISSUE_ALERT_MESSAGE" = "De verwijzing naar je foutopsporingslog is gekopieerd naar je klembord. Je wordt zodadelijk doorverwezen naar GitHub waar je je probleem kunt rapporteren en deze verwijzing kunt plakken.";
 
 /* Title of the alert before redirecting to GitHub Issues. */
 "DEBUG_LOG_GITHUB_ISSUE_ALERT_TITLE" = "GitHub-doorverwijzing";
@@ -1634,10 +1634,10 @@
 "DONATION_RECEIPT_DETAILS" = "Details";
 
 /* Text on the button that exports the receipt */
-"DONATION_RECEIPT_EXPORT_RECEIPT_BUTTON" = "Share Receipt";
+"DONATION_RECEIPT_EXPORT_RECEIPT_BUTTON" = "Afschrift doorsturen";
 
 /* Footer text at the bottom of donation receipts */
-"DONATION_RECEIPT_FOOTER" = "Thank you for supporting Signal. Your contribution helps fuel the mission of developing open source privacy technology that protects free expression and enables secure global communication for millions around the world. If you’re a resident of the United States, please retain this receipt for your tax records. Signal Technology Foundation is a tax-exempt nonprofit organization in the United States under section 501c3 of the Internal Revenue Code. Our Federal Tax ID is 82-4506840.";
+"DONATION_RECEIPT_FOOTER" = "Bedankt dat je Signal steunt. Jouw bijdrage helpt bij het voortzetten van onze missie om open-broncode privacy-technologieën te ontwikkelen waarmee van miljoenen mensen de vrijheid van expressie wordt gewaarborgd en waarmee beveiligde communicatie over de hele wereld mogelijk wordt gemaakt. Bewaar dit afschrift als je een inwoner bent van de Verenigde Staten van Amerika, zodat je je donatie kunt opgeven bij je belastingaangifte. Signal Technology Foundation is een van belasting uitgezonderde organisatie zonder winstoogmerk volgens sectie 501c3 van het Internal Revenue Code (het Amerikaanse belastingreglement). Ons federale-belasting-ID is 82-4506840.";
 
 /* Title for one-time donation receipts */
 "DONATION_RECEIPT_ONE_TIME" = "Eenmalig";
@@ -1649,7 +1649,7 @@
 "DONATION_RECEIPT_TITLE" = "Donatie-afschrift";
 
 /* Section title for donation type on receipts */
-"DONATION_RECEIPT_TYPE" = "Type";
+"DONATION_RECEIPT_TYPE" = "Donatie-type";
 
 /* Title of view where you can see all of your donation receipts, or button to take you there */
 "DONATION_RECEIPTS" = "Donatie-afschriften";
@@ -3263,10 +3263,10 @@
 "MESSAGE_ACTION_DELETE_FOR_EVERYONE_CONFIRMATION" = "Dit bericht zal voor iedereen die momenteel aan het gesprek deelneemt gewist worden, mits ze een recente versie van Signal gebruiken. Ze zullen wel kunnen zien dat je een bericht hebt gewist.";
 
 /* The title for the action sheet asking who the user wants to delete the message for. */
-"MESSAGE_ACTION_DELETE_FOR_TITLE" = "Voor wie wil je dit bericht verwijderen?";
+"MESSAGE_ACTION_DELETE_FOR_TITLE" = "Voor wie wil je dit bericht wissen?";
 
 /* The title for the action that deletes a message for the local user only. */
-"MESSAGE_ACTION_DELETE_FOR_YOU" = "Voor mij verwijderen";
+"MESSAGE_ACTION_DELETE_FOR_YOU" = "Voor mij wissen";
 
 /* Action sheet button title */
 "MESSAGE_ACTION_DELETE_MESSAGE" = "Bericht wissen";
@@ -3398,7 +3398,7 @@
 "MESSAGE_REQUEST_BLOCK_ACTION" = "Blokkeren";
 
 /* Action sheet action to confirm blocking and deleting a thread via a message request. */
-"MESSAGE_REQUEST_BLOCK_AND_DELETE_ACTION" = "Blokkeren en verwijderen";
+"MESSAGE_REQUEST_BLOCK_AND_DELETE_ACTION" = "Blokkeren en wissen";
 
 /* Action sheet action to confirm blocking and report spam for a thread via a message request. */
 "MESSAGE_REQUEST_BLOCK_AND_REPORT_SPAM_ACTION" = "Spam melden en blokkeren";
@@ -3413,10 +3413,10 @@
 "MESSAGE_REQUEST_BLOCK_GROUP_MESSAGE" = "Je zult deze groep verlaten en niet langer berichten of meldingen ontvangen.";
 
 /* Action sheet title to confirm blocking a group via a message request. Embeds {{group name}} */
-"MESSAGE_REQUEST_BLOCK_GROUP_TITLE_FORMAT" = "“%@” blokkeren en verwijderen?";
+"MESSAGE_REQUEST_BLOCK_GROUP_TITLE_FORMAT" = "“%@” blokkeren en wissen?";
 
 /* Action sheet action to confirm deleting a conversation via a message request. */
-"MESSAGE_REQUEST_DELETE_CONVERSATION_ACTION" = "Verwijderen";
+"MESSAGE_REQUEST_DELETE_CONVERSATION_ACTION" = "Wissen";
 
 /* Action sheet message to confirm deleting a conversation via a message request. */
 "MESSAGE_REQUEST_DELETE_CONVERSATION_MESSAGE" = "Dit gesprek zal op al je eigen apparaten worden gewist.";
@@ -3425,13 +3425,13 @@
 "MESSAGE_REQUEST_DELETE_CONVERSATION_TITLE" = "Gesprek wissen?";
 
 /* Action sheet action to confirm deleting a group via a message request. */
-"MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_ACTION" = "Verwijderen en verlaten";
+"MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_ACTION" = "Wissen en verlaten";
 
 /* Action sheet message to confirm deleting a group via a message request. */
 "MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_MESSAGE" = "Je zult deze groep verlaten en het gesprek zal op al je eigen apparaten worden gewist.";
 
 /* Action sheet title to confirm deleting a group via a message request. */
-"MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_TITLE" = "Groep verwijderen en verlaten?";
+"MESSAGE_REQUEST_LEAVE_AND_DELETE_GROUP_TITLE" = "Groep wissen en verlaten?";
 
 /* Banner label notifying user that a new message is from a user with the same name as an existing contact */
 "MESSAGE_REQUEST_NAME_COLLISON_BANNER_LABEL" = "Overweeg dit gespreksverzoek zorgvuldig, want er is een andere contactpersoon met dezelfde naam.";
@@ -3767,10 +3767,10 @@
 "ONBOARDING_2FA_CREATE_NEW_PIN" = "Nieuwe pincode aanmaken";
 
 /* Button asking if the user would like to enter an alphanumeric PIN */
-"ONBOARDING_2FA_ENTER_ALPHANUMERIC" = "Voer je alfanumerieke pincode in";
+"ONBOARDING_2FA_ENTER_ALPHANUMERIC" = "Een alfanumerieke pincode invoeren";
 
 /* Button asking if the user would like to enter an numeric PIN */
-"ONBOARDING_2FA_ENTER_NUMERIC" = "Voer je numerieke pincode in";
+"ONBOARDING_2FA_ENTER_NUMERIC" = "Een numerieke pincode invoeren";
 
 /* Label for the 'forgot 2FA PIN' link in the 'onboarding 2FA' view. */
 "ONBOARDING_2FA_FORGOT_PIN_LINK" = "Hulp nodig?";
@@ -4343,10 +4343,10 @@
 "PIN_CREATION_CONFIRMATION_EXPLANATION" = "Voer de pincode die je zojuist hebt aangemaakt opnieuw in.";
 
 /* Button asking if the user would like to create an alphanumeric PIN */
-"PIN_CREATION_CREATE_ALPHANUMERIC" = "Maak een alfanumerieke pincode aan";
+"PIN_CREATION_CREATE_ALPHANUMERIC" = "Een alfanumerieke pincode aanmaken";
 
 /* Button asking if the user would like to create an numeric PIN */
-"PIN_CREATION_CREATE_NUMERIC" = "Maak een numerieke pincode aan";
+"PIN_CREATION_CREATE_NUMERIC" = "Een numerieke pincode aanmaken";
 
 /* Action of the 'pin disable' action sheet. */
 "PIN_CREATION_DISABLE_CONFIRMATION_ACTION" = "Pincode uitschakelen";
@@ -4430,7 +4430,7 @@
 "PIN_REMINDER_EXPLANATION" = "Om je te helpen je pincode te onthouden vraagt Signal je periodiek om te bewijzen dat je je pincode nog weet. Als je je pincode een aantal keer juist invoert, dan zal Signal je minder vaak deze vraag stellen. Je kunt deze herinneringen uitschakelen via Instellingen > Jouw registratie.";
 
 /* Text asking if the user forgot their pin for the 'pin reminder' dialog. */
-"PIN_REMINDER_FORGOT_PIN" = "Pincode vergeten?";
+"PIN_REMINDER_FORGOT_PIN" = "Tik hier als je je pincode bent vergeten.";
 
 /* Action text for PIN reminder megaphone */
 "PIN_REMINDER_MEGAPHONE_ACTION" = "Pincode verifiëren ";
@@ -4643,10 +4643,10 @@
 "QUOTED_REPLY_REACTION_TO_OWN_STORY" = "Reageerde op je verhaal";
 
 /* Header label that appears above quoted messages when the quoted content was includes a reaction to a story. Embeds {{ story author name }} */
-"QUOTED_REPLY_REACTION_TO_STORY_FORMAT" = "Reacted to %@’s story";
+"QUOTED_REPLY_REACTION_TO_STORY_FORMAT" = "Reageerde op het verhaal van %@";
 
 /* Message header when you are quoting a story. Embeds {{ story author name }} */
-"QUOTED_REPLY_STORY_AUTHOR_INDICATOR_FORMAT" = "%@ · Story";
+"QUOTED_REPLY_STORY_AUTHOR_INDICATOR_FORMAT" = "Verhaal van %@";
 
 /* Indicates this message is a quoted reply to an attachment of unknown type. */
 "QUOTED_REPLY_TYPE_ATTACHMENT" = "Bijlage";
@@ -5054,7 +5054,7 @@
 "SEARCH_BY_NAME_OR_USERNAME_OR_NUMBER_PLACEHOLDER_TEXT" = "Naam, gebruikersnaam of telefoonnummer";
 
 /* Placeholder text indicating the user can search for contacts by name or phone number. */
-"SEARCH_BYNAMEORNUMBER_PLACEHOLDER_TEXT" = "Zoeken op naam of nummer";
+"SEARCH_BYNAMEORNUMBER_PLACEHOLDER_TEXT" = "Zoeken op naam of telefoonnummer";
 
 /* placeholder text in an empty search field */
 "SEARCH_FIELD_PLACE_HOLDER_TEXT" = "Zoeken";
@@ -5942,7 +5942,7 @@
 "SETTINGS_SCREEN_LOCK_SWITCH_LABEL" = "Appvergrendeling";
 
 /* No comment provided by engineer. */
-"SETTINGS_SCREEN_SECURITY" = "Verberg Signal bij wisselen tussen apps";
+"SETTINGS_SCREEN_SECURITY" = "Bescherm op je eigen telefoon je gesprekken tegen stiekeme schermopnames vanuit spionerende apps, door Signals inhoud te verbergen in het overzicht van recent geopende apps.";
 
 /* Footer for table section */
 "SETTINGS_SECTION_FOOTER_CALLING" = "Signal-oproepen weergeven in de “Recentelijk”-lijst in de iOS-telefoonapp.";
@@ -6233,7 +6233,7 @@
 "SUPPORT_EMAIL_HARDWARE_LABEL_FORMAT" = "Hardware: %@";
 
 /* Localized label for support request email HID string (e.g. 12,1). Embeds {{hid text}}. */
-"SUPPORT_EMAIL_HID_LABEL_FORMAT" = "Mens-interactie-apparaat: %@";
+"SUPPORT_EMAIL_HID_LABEL_FORMAT" = "HID: %@";
 
 /* Localized divider for support request emails internal information */
 "SUPPORT_EMAIL_INFO_DIVIDER" = "--- Ondersteuningsinformatie ---";
@@ -6269,10 +6269,10 @@
 "SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Signal is een organisatie zonder winstoogmerk zonder adverteerders en zonder investeerders, uitsluitend mogelijk gemaakt door mensen die de app gebruiken en die er waarde aan hechten. Geef maandelijks donaties en ontvang een profiel-badge die je—als je dat wilt—kunt weergeven op je profiel om te laten zien dat je Signal ondersteunt.";
 
 /* Second block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Signal is committed to developing open source privacy technology that protects free expression and enables secure global communication.\n\nYour donation fuels this cause and pays for the development and operations of an app used by millions for private communication. No ads. No trackers. No kidding.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Het Signal-team heeft als missie om open-broncode privacy-technologieën te ontwikkelen waarmee de vrijheid van expressie wordt gewaarborgd en waarmee beveiligde communicatie over de hele wereld mogelijk wordt gemaakt. Dit alles zonder advertenties en zonder dat je gedrag wordt gevolgd.\n\nJouw bijdrage helpt dit mogelijk te maken. Met je donatie betalen we voor de ontwikkeling van Signal, de servers, de bandbreedte en de medewerkers die nodig zijn voor een app door miljoenen mensen wordt gebruikt voor privécommunicatie. Geen advertenties, geen volgers, geen grapje.";
 
 /* Title for the signal sustainer read more view */
-"SUSTAINER_READ_MORE_TITLE" = "Support technology that is built for you—not for your data—by joining the community that sustains it.";
+"SUSTAINER_READ_MORE_TITLE" = "Ondersteun technologie die is gemaakt voor jou—niet voor het verzamelen van je gegevens—door één van de donateurs te worden die Signal mogelijk maken.";
 
 /* Why Contribute title for the signal sustainer read more view */
 "SUSTAINER_READ_MORE_WHY_CONTRIBUTE" = "Waarom zou ik doneren?";
@@ -6338,7 +6338,7 @@
 "SUSTAINER_VIEW_PROCESSING_TRANSACTION" = "Overschrijving aan het verwerken …";
 
 /* Read More tappable text in sustainer view body */
-"SUSTAINER_VIEW_READ_MORE" = "Read more.";
+"SUSTAINER_VIEW_READ_MORE" = "Meer lezen.";
 
 /* Renewal date text for sustainer view level, embeds {{renewal date}} */
 "SUSTAINER_VIEW_RENEWAL" = "Hernieuwt %@";
@@ -6608,13 +6608,13 @@
 "VERIFICATION_STATE_CHANGE_FORMAT_NOT_VERIFIED_LOCAL" = "Je hebt %@ gemarkeerd als niet geverifieerd.";
 
 /* Format for info message indicating that the verification state was unverified on another device. Embeds {{user's name or phone number}}. */
-"VERIFICATION_STATE_CHANGE_FORMAT_NOT_VERIFIED_OTHER_DEVICE" = "Je hebt %@ op een ander apparaat gemarkeerd als niet geverifieerd.";
+"VERIFICATION_STATE_CHANGE_FORMAT_NOT_VERIFIED_OTHER_DEVICE" = "Je hebt %@ vanaf een ander apparaat gemarkeerd als niet geverifieerd.";
 
 /* Format for info message indicating that the verification state was verified on this device. Embeds {{user's name or phone number}}. */
 "VERIFICATION_STATE_CHANGE_FORMAT_VERIFIED_LOCAL" = "Je hebt %@ gemarkeerd als geverifieerd.";
 
 /* Format for info message indicating that the verification state was verified on another device. Embeds {{user's name or phone number}}. */
-"VERIFICATION_STATE_CHANGE_FORMAT_VERIFIED_OTHER_DEVICE" = "Je hebt %@ op een ander apparaat gemarkeerd als geverifieerd.";
+"VERIFICATION_STATE_CHANGE_FORMAT_VERIFIED_OTHER_DEVICE" = "Je hebt %@ vanaf een ander apparaat gemarkeerd als geverifieerd.";
 
 /* Generic message indicating that verification state changed for a given user. */
 "VERIFICATION_STATE_CHANGE_GENERIC" = "Verificatiestatus veranderd.";
@@ -6734,7 +6734,7 @@
 "WALLPAPER_SETTINGS_SET_WALLPAPER" = "Gespreksachtergrond kiezen";
 
 /* text indicating the message was remotely deleted by you */
-"YOU_DELETED_THIS_MESSAGE" = "Je hebt dit bericht verwijderd.";
+"YOU_DELETED_THIS_MESSAGE" = "Je hebt dit bericht gewist.";
 
 /* Info Message when you disabled disappearing messages. */
 "YOU_DISABLED_DISAPPEARING_MESSAGES_CONFIGURATION" = "Je hebt verlopende berichten uitgeschakeld.";

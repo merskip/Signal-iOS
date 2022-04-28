@@ -155,7 +155,7 @@
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "שגיאה";
 
 /* No comment provided by engineer. */
-"APP_LAUNCH_FAILURE_CHECK_DATABASE" = "Run Database Integrity Check";
+"APP_LAUNCH_FAILURE_CHECK_DATABASE" = "הרץ בדיקת תקינות מסד נתונים";
 
 /* Error indicating that the app could not launch because the database could not be loaded. */
 "APP_LAUNCH_FAILURE_COULD_NOT_LOAD_DATABASE" = "לא היה ניתן לטעון מסד נתונים";
@@ -380,13 +380,13 @@
 "BADGE_DETAILS_GIVE_A_BOOST" = "תן אל Signal תמריץ";
 
 /* String explaing to the user that their boost badge has expired on the badge expiry sheetsheet. */
-"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "Your Boost badge has expired and is no longer visible on your profile.\n\nYou can keep using Signal but to support technology that is built for you, consider becoming a sustainer by making a monthly donation.";
+"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "תג התמריץ שלך פג, והוא אינו גלוי יותר בפרופיל שלך.\n\nאתה יכול להמשיך להשתמש ב־Signal אבל כדי לתמוך בטכנולוגיה שנבנתה עבורך, שקול להפוך אל מחזיק חודשי ע״י ביצוע תרומה חודשית.";
 
 /* String explaing to the user that their boost badge has expired while they are a current subscription sustainer on the badge expiry sheetsheet. */
 "BADGE_EXIPRED_BOOST_CURRENT_SUSTAINER_BODY_FORMAT" = "תג התמריץ שלך פג, והוא אינו גלוי יותר בפרופיל שלך.\n\nאתה יכול להפעיל מחדש את תג התמריץ שלך למשך 30 ימים נוספים עם תרומה חד־פעמית.";
 
 /* String explaing to the user that their subscription badge has expired on the badge expiry sheetsheet. Embed {badge name}. */
-"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Your recurring monthly donation was automatically cancelled because you were inactive for too long. Your %@ badge is no longer visible on your profile.\n\nYou can keep using Signal but to support the app and reactivate your badge, renew now.";
+"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "התרומה החודשית המחזורית שלך בוטלה באופן אוטומטי מאחר שהיית בלתי פעיל למשך זמן רב. תג ה%@ שלך אינו גלוי יותר בפרופיל שלך.\n\nאתה יכול להמשיך להשתמש ב־Signal אבל כדי לתמוך ביישום ולהפעיל מחדש את התג שלך, חַדֵשׁ עכשיו.";
 
 /* Button title for boost on the badge expiration sheet, used if the user is not already a sustainer. */
 "BADGE_EXPIRED_BOOST_RENEWAL_BUTTON" = "הפוך אל מחזיק";
@@ -401,7 +401,7 @@
 "BADGE_EXPIRED_SUBSCRIPTION_RENEWAL_BUTTON" = "חדש מינוי";
 
 /* Title for subscription on the badge expiration sheet. */
-"BADGE_EXPIRED_SUBSCRIPTION_TITLE" = "Monthly Donation Cancelled";
+"BADGE_EXPIRED_SUBSCRIPTION_TITLE" = "תרומה חודשית בוטלה";
 
 /* Title for boost on the thank you sheet. */
 "BADGE_THANKS_BOOST_TITLE" = "תודה על התמריץ!";
@@ -419,7 +419,7 @@
 "BADGE_THANKS_TOGGLE_FOOTER" = "כשיהיו לך יותר מתג אחד, תוכל לבחור אחד להבליט כדי שאחרים יראו בפרופיל שלך.";
 
 /* String explaing to the user that they've earned a badge on the badge thank you sheet. Embed {badge name}. */
-"BADGE_THANKS_YOU_EARNED_FORMAT" = "You’ve earned a %@ badge. Display this badge on your profile to build awareness for donating to Signal.";
+"BADGE_THANKS_YOU_EARNED_FORMAT" = "הרווחת תג %@. הצג את התג הזה בפרופיל שלך כדי לעלות מודעות לגבי תרומה אל Signal.";
 
 /* Accessibility label for banner close button */
 "BANNER_CLOSE_ACCESSIBILITY_LABEL" = "סגור מודעה";
@@ -500,7 +500,7 @@
 "BOOST_VIEW_AMOUNT_LABEL" = "הגדר מטבע";
 
 /* The body text for the donate to signal view */
-"BOOST_VIEW_BODY" = "Make a one-time donation and earn a Boost badge for 30 days.";
+"BOOST_VIEW_BODY" = "בצע תרומה חד־פעמית והרווח תג תמריץ למשך 30 ימים.";
 
 /* The body text for the donate to signal view, embeds {{Expiration}} */
 "BOOST_VIEW_BODY_WITH_EXPIRATION_FORMAT" = "תג התמריץ שלך יפוג בתאריך %@.";
@@ -1331,19 +1331,19 @@
 "CUSTOM_CHAT_COLOR_SETTINGS_TOOLTIP" = "גרור את השינוי אל כיוון השיפוע";
 
 /* Button to run the database integrity check */
-"DATABASE_INTEGRITY_CHECK_ACTION_RUN" = "Run";
+"DATABASE_INTEGRITY_CHECK_ACTION_RUN" = "הרץ";
 
 /* Message for alert before running a database integrity check */
-"DATABASE_INTEGRITY_CHECK_MESSAGE" = "This may take a while (several minutes or more) depending on how much you have used Signal. It is safe to close Signal if it is taking too long.";
+"DATABASE_INTEGRITY_CHECK_MESSAGE" = "זה עשוי לקחת זמן מה (מספר דקות או יותר), תלוי כמה השתמשת ב־Signal. זה בטוח לסגור את Signal אם זה לוקח יותר מדי זמן.";
 
 /* Button to save database integrity check results to the debug log */
-"DATABASE_INTEGRITY_CHECK_RESULTS_ACTION_LOG" = "Add to Debug Log";
+"DATABASE_INTEGRITY_CHECK_RESULTS_ACTION_LOG" = "הוסף אל יומן ניפוי תקלים";
 
 /* Title for alert after running a database integrity check */
-"DATABASE_INTEGRITY_CHECK_RESULTS_TITLE" = "Integrity check results";
+"DATABASE_INTEGRITY_CHECK_RESULTS_TITLE" = "תוצאות בדיקת תקינות";
 
 /* Title for alert before running a database integrity check */
-"DATABASE_INTEGRITY_CHECK_TITLE" = "Run database integrity check?";
+"DATABASE_INTEGRITY_CHECK_TITLE" = "להריץ בדיקת תקינות מסד נתונים?";
 
 /* Subtitle shown while the app is updating its database. */
 "DATABASE_VIEW_OVERLAY_SUBTITLE" = "ייתכן וזה יקח מספר דקות";
@@ -1634,10 +1634,10 @@
 "DONATION_RECEIPT_DETAILS" = "פרטים";
 
 /* Text on the button that exports the receipt */
-"DONATION_RECEIPT_EXPORT_RECEIPT_BUTTON" = "Share Receipt";
+"DONATION_RECEIPT_EXPORT_RECEIPT_BUTTON" = "שתף קבלה";
 
 /* Footer text at the bottom of donation receipts */
-"DONATION_RECEIPT_FOOTER" = "Thank you for supporting Signal. Your contribution helps fuel the mission of developing open source privacy technology that protects free expression and enables secure global communication for millions around the world. If you’re a resident of the United States, please retain this receipt for your tax records. Signal Technology Foundation is a tax-exempt nonprofit organization in the United States under section 501c3 of the Internal Revenue Code. Our Federal Tax ID is 82-4506840.";
+"DONATION_RECEIPT_FOOTER" = "תודה לך על תמיכה ב־Signal. התרומה שלך עוזרת לתדלק את המשימה של פיתוח טכנולוגית פרטיות בקוד פתוח שמגינה על חופשי ביטוי ומאפשרת תקשורת עולמית מאובטחת עבור מיליוני אנשים ברחבי העולם. אם אתה תושב ארצות הברית, אנא שמור את הקבלה הזאת עבור רישומי המס שלך. הקרן של טכנולוגית Signal היא ארגון ללא מטרות רווח פטור ממס בארצות הברית תחת קטע 501c3 של קוד ההכנסה הפנימית. מספר זהות המס שלנו הוא 82-4506840.";
 
 /* Title for one-time donation receipts */
 "DONATION_RECEIPT_ONE_TIME" = "חד־פעמית";
@@ -1649,7 +1649,7 @@
 "DONATION_RECEIPT_TITLE" = "קבלת תרומה";
 
 /* Section title for donation type on receipts */
-"DONATION_RECEIPT_TYPE" = "Type";
+"DONATION_RECEIPT_TYPE" = "סוג";
 
 /* Title of view where you can see all of your donation receipts, or button to take you there */
 "DONATION_RECEIPTS" = "קבלות תרומה";
@@ -4643,10 +4643,10 @@
 "QUOTED_REPLY_REACTION_TO_OWN_STORY" = "הגיב/ה אל הסיפור שלך";
 
 /* Header label that appears above quoted messages when the quoted content was includes a reaction to a story. Embeds {{ story author name }} */
-"QUOTED_REPLY_REACTION_TO_STORY_FORMAT" = "Reacted to %@’s story";
+"QUOTED_REPLY_REACTION_TO_STORY_FORMAT" = "הגיב/ה אל סיפור של %@";
 
 /* Message header when you are quoting a story. Embeds {{ story author name }} */
-"QUOTED_REPLY_STORY_AUTHOR_INDICATOR_FORMAT" = "%@ · Story";
+"QUOTED_REPLY_STORY_AUTHOR_INDICATOR_FORMAT" = "%@ · סיפור";
 
 /* Indicates this message is a quoted reply to an attachment of unknown type. */
 "QUOTED_REPLY_TYPE_ATTACHMENT" = "צרופה";
@@ -5468,7 +5468,7 @@
 "SETTINGS_NOTIFICATIONS" = "התראות";
 
 /* Title for the 'one-time donation' link in settings. */
-"SETTINGS_ONE_TIME_DONATION" = "One-time Donation";
+"SETTINGS_ONE_TIME_DONATION" = "תרומה חד־פעמית";
 
 /* Label for the 'agree to payments terms' button in the 'activate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_AGREE" = "הפעל";
@@ -5984,7 +5984,7 @@
 "SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "התר גישת iOS אל אנשי קשר והתכתבויות של Signal עבור מאפיינים כמו הצעות שיתוף והתראות.";
 
 /* Title for the 'monthly donation' link in settings. */
-"SETTINGS_SUBSCRIPTION" = "Monthly Donation";
+"SETTINGS_SUBSCRIPTION" = "תרומה חודשית";
 
 /* Label for the 'enable registration lock' switch of the privacy settings. */
 "SETTINGS_TWO_FACTOR_AUTH_SWITCH_LABEL" = "נעילת הרשמה";
@@ -6200,7 +6200,7 @@
 "SUBSCRIPTION_MEGAPHONE_ACTION" = "תרום";
 
 /* Body for subscription megaphone */
-"SUBSCRIPTION_MEGAPHONE_BODY" = "Signal is powered by people like you. Donate and receive a badge.";
+"SUBSCRIPTION_MEGAPHONE_BODY" = "Signal ממונע על ידי אנשים כמוך. תרום וקבל תג.";
 
 /* Cancel text for subscription megaphone */
 "SUBSCRIPTION_MEGAPHONE_CANCEL" = "לא עכשיו";
@@ -6266,13 +6266,13 @@
 "SUPPORT_LOG_UPLOAD_IN_PROGRESS" = "טוען";
 
 /* First block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Signal is a nonprofit with no advertisers or investors, sustained only by the people who use and value it. Make a recurring monthly donation and receive a profile badge to share your support.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Signal הוא ללא מטרות רווח בלי מפרסמים או משקיעים, מוחזק רק ע״י האנשים שמשתמשים בו ומעריכים אותו. בצע תרומה חודשית חוזרת וקבל תג פרופיל כדי לשתף את התמיכה שלך.";
 
 /* Second block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Signal is committed to developing open source privacy technology that protects free expression and enables secure global communication.\n\nYour donation fuels this cause and pays for the development and operations of an app used by millions for private communication. No ads. No trackers. No kidding.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Signal מחויב אל פיתוח טכנולוגית פרטיות בקוד פתוח שמגינה על חופשי ביטוי ומאפשרת תקשורת עולמית מאובטחת.\n\nהתרומה שלך מתדלקת את המטרה הזאת ומשלמת עבור הפיתוח והפעולות של יישום שנמצא בשימוש ע״י מיליוני אנשים ברחבי העולם למען תקשורת פרטית. ללא פרסומות. ללא עוקבנים. ללא שטויות.";
 
 /* Title for the signal sustainer read more view */
-"SUSTAINER_READ_MORE_TITLE" = "Support technology that is built for you—not for your data—by joining the community that sustains it.";
+"SUSTAINER_READ_MORE_TITLE" = "תמוך בטכנולוגיה שנבנתה עבורך—לא עבור הנתונים שלך—ע״י הצטרפות אל הקהילה שמחזיקה אותה.";
 
 /* Why Contribute title for the signal sustainer read more view */
 "SUSTAINER_READ_MORE_WHY_CONTRIBUTE" = "למה לתרום?";
@@ -6338,7 +6338,7 @@
 "SUSTAINER_VIEW_PROCESSING_TRANSACTION" = "מעבד עסקה…";
 
 /* Read More tappable text in sustainer view body */
-"SUSTAINER_VIEW_READ_MORE" = "Read more.";
+"SUSTAINER_VIEW_READ_MORE" = "קרא עוד.";
 
 /* Renewal date text for sustainer view level, embeds {{renewal date}} */
 "SUSTAINER_VIEW_RENEWAL" = "מתחדש %@";
@@ -6365,7 +6365,7 @@
 "SUSTAINER_VIEW_UPDATE_SUBSCRIPTION_CONFIRMATION_UPDATE" = "עדכן";
 
 /* The body text for the signal sustainer view */
-"SUSTAINER_VIEW_WHY_DONATE_BODY" = "Make a recurring monthly donation to Signal to support technology built for you, not your data.";
+"SUSTAINER_VIEW_WHY_DONATE_BODY" = "בצע תרומה חודשית מחזורית אל Signal כדי לתמוך בטכנולוגיה שנבנתה עבורך, לא עבור הנתונים שלך.";
 
 /* Label for 'off' state of a switch control. */
 "SWITCH_OFF" = "כבוי";

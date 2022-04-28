@@ -1640,7 +1640,7 @@
 "DONATION_RECEIPT_FOOTER" = "Thank you for supporting Signal. Your contribution helps fuel the mission of developing open source privacy technology that protects free expression and enables secure global communication for millions around the world. If you’re a resident of the United States, please retain this receipt for your tax records. Signal Technology Foundation is a tax-exempt nonprofit organization in the United States under section 501c3 of the Internal Revenue Code. Our Federal Tax ID is 82-4506840.";
 
 /* Title for one-time donation receipts */
-"DONATION_RECEIPT_ONE_TIME" = "One-time";
+"DONATION_RECEIPT_ONE_TIME" = "Tek Seferlik";
 
 /* Title for recurring donation receipts */
 "DONATION_RECEIPT_RECURRING" = "Recurring";
@@ -5468,7 +5468,7 @@
 "SETTINGS_NOTIFICATIONS" = "Bildirimler";
 
 /* Title for the 'one-time donation' link in settings. */
-"SETTINGS_ONE_TIME_DONATION" = "One-time Donation";
+"SETTINGS_ONE_TIME_DONATION" = "Tek Seferlik Bağış";
 
 /* Label for the 'agree to payments terms' button in the 'activate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_AGREE" = "Etkinleştir";
@@ -5984,7 +5984,7 @@
 "SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "Paylaşma önerileri ve bildirimleri gibi özellikler için iOS'un Signal kişilerine ve konuşmalarına erişmesine izin verin.";
 
 /* Title for the 'monthly donation' link in settings. */
-"SETTINGS_SUBSCRIPTION" = "Monthly Donation";
+"SETTINGS_SUBSCRIPTION" = "Aylık Bağış";
 
 /* Label for the 'enable registration lock' switch of the privacy settings. */
 "SETTINGS_TWO_FACTOR_AUTH_SWITCH_LABEL" = "Kayıt Kilidi";
@@ -6155,7 +6155,7 @@
 "STORIES_NO_RECENT_MESSAGES" = "No recent updates to show right now.";
 
 /* Indicates that this story has no replies yet */
-"STORIES_NO_REPLIES_YET" = "No replies yet";
+"STORIES_NO_REPLIES_YET" = "Henüz yanıt yok";
 
 /* Context menu action to share the selected story */
 "STORIES_SHARE_STORY_ACTION" = "Paylaş";
@@ -6266,7 +6266,7 @@
 "SUPPORT_LOG_UPLOAD_IN_PROGRESS" = "Yükleniyor";
 
 /* First block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Signal is a nonprofit with no advertisers or investors, sustained only by the people who use and value it. Make a recurring monthly donation and receive a profile badge to share your support.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Signal, reklamvereni veya yatırımcıları olmayan, yalnızca onu kullanan ve değer veren kişiler tarafından sürdürülen kar amacı gütmeyen bir kuruluştur. Yinelenen bir aylık katkı yapın ve desteğinizi gösteren bir profil rozeti alın.";
 
 /* Second block of description text in read more sheet */
 "SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Signal is committed to developing open source privacy technology that protects free expression and enables secure global communication.\n\nYour donation fuels this cause and pays for the development and operations of an app used by millions for private communication. No ads. No trackers. No kidding.";

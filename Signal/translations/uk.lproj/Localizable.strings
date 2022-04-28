@@ -8,7 +8,7 @@
 "ACCEPT_NEW_IDENTITY_ACTION" = "Прийняти новий код безпеки";
 
 /* Accessibility label for attachment. */
-"ACCESSIBILITY_LABEL_ATTACHMENT" = "Додаток";
+"ACCESSIBILITY_LABEL_ATTACHMENT" = "Вкладення";
 
 /* Accessibility label for audio. */
 "ACCESSIBILITY_LABEL_AUDIO" = "Аудіо";
@@ -26,7 +26,7 @@
 "ACCESSIBILITY_LABEL_SENDER_SELF" = "Ви";
 
 /* Accessibility label for stickers. */
-"ACCESSIBILITY_LABEL_STICKER" = "Стікер";
+"ACCESSIBILITY_LABEL_STICKER" = "Наліпка";
 
 /* Accessibility label for a voice memo. */
 "ACCESSIBILITY_LABEL_VOICE_MEMO" = "Голосове повідомлення";
@@ -110,16 +110,16 @@
 "ADD_USER_TO_PROFILE_WHITELIST_OFFER" = "Поділитися своїм профілем із користувачем?";
 
 /* generic button text to acknowledge that the corresponding text was read. */
-"ALERT_ACTION_ACKNOWLEDGE" = "Ясно";
+"ALERT_ACTION_ACKNOWLEDGE" = "Зрозуміло";
 
 /* Format string for delivery issue sheet message. Embeds {{ sender name }}. */
-"ALERT_DELIVERY_ISSUE_MESSAGE_FORMAT" = "Повідомлення, стікери, реакції, сповіщення про прочитання або медіа від %@ не вдалось доставити у цьому чаті.";
+"ALERT_DELIVERY_ISSUE_MESSAGE_FORMAT" = "Повідомлення, наліпки, реакції, сповіщення про прочитання або медіа від %@ не вдалося доставити вам у цьому чаті.";
 
 /* Title for delivery issue sheet */
 "ALERT_DELIVERY_ISSUE_TITLE" = "Проблема з доставленням";
 
 /* Format string for delivery issue sheet message where the original thread is unknown. Embeds {{ sender name }}. */
-"ALERT_DELIVERY_ISSUE_UNKNOWN_THREAD_MESSAGE_FORMAT" = "Повідомлення, стікери, реакції, сповіщення про прочитання або медіа від %@ доставити не вдалось. Можливо, їх надсилали напряму або у групі.";
+"ALERT_DELIVERY_ISSUE_UNKNOWN_THREAD_MESSAGE_FORMAT" = "Повідомлення, наліпки, реакції, сповіщення про прочитання або медіа від %@ не вдалося доставити. Можливо, їх надсилали безпосередньо вам, або в групі.";
 
 /* The label for the 'discard' button in alerts and action sheets. */
 "ALERT_DISCARD_BUTTON" = "Відхилити";
@@ -140,7 +140,7 @@
 "ALERT_UNKNOWN_THREAD_WARNING_GROUP_MESSAGE" = "У вас немає спільних учасників у цій групі. Уважно розглядайте запити перед тим, як їх прийняти, щоб уникнути небажаних повідомлень.";
 
 /* Label for button to learn more about message requests. */
-"ALERT_UNKNOWN_THREAD_WARNING_LEARN_MORE" = "Про запити на листування";
+"ALERT_UNKNOWN_THREAD_WARNING_LEARN_MORE" = "Про запити на повідомлення";
 
 /* notification action */
 "ANSWER_CALL_BUTTON_TITLE" = "Відповісти";
@@ -155,7 +155,7 @@
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Помилка";
 
 /* No comment provided by engineer. */
-"APP_LAUNCH_FAILURE_CHECK_DATABASE" = "Run Database Integrity Check";
+"APP_LAUNCH_FAILURE_CHECK_DATABASE" = "Виконати перевірку інтеграції бази даних";
 
 /* Error indicating that the app could not launch because the database could not be loaded. */
 "APP_LAUNCH_FAILURE_COULD_NOT_LOAD_DATABASE" = "Не вдалося завантажити базу даних";
@@ -167,10 +167,10 @@
 "APP_LAUNCH_FAILURE_INVALID_DATABASE_VERSION_TITLE" = "Невідома версія бази даних.";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Дані, перенесені з вашого старого пристрою, не вдалось відновити. Будь-ласка, надішліть журнал налаштувань на support@signal.org, щоб ми змогли виправити цю проблему. Якщо ви переінсталюєте Signal, ваша історія повідомлень може бути втрачена.";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_MESSAGE" = "Не вдалося відновити дані, перенесені з вашого старого пристрою. Будь ласка, надішліть журнал зневадження на support@signal.org, щоб ми змогли виправити цю проблему. Якщо ви перевстановите Signal, історія повідомлень може бути втрачена.";
 
 /* Error indicating that the app could not restore transferred data. */
-"APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "Не вдалось завершити перенесення";
+"APP_LAUNCH_FAILURE_RESTORE_FAILED_TITLE" = "Не вдається завершити перенесення";
 
 /* Text prompting user to edit their profile name. */
 "APP_SETTINGS_EDIT_PROFILE_NAME_PROMPT" = "Уведіть своє ім’я";
@@ -233,16 +233,16 @@
 "ATTACHMENT_APPROVAL_MEDIA_QUALITY_STANDARD_OPTION_SUBTITLE" = "Швидше, менше даних";
 
 /* Title for the attachment approval media quality sheet */
-"ATTACHMENT_APPROVAL_MEDIA_QUALITY_TITLE" = "Якість Медіа";
+"ATTACHMENT_APPROVAL_MEDIA_QUALITY_TITLE" = "Якість медіа";
 
 /* Placeholder text indicating who this attachment will be sent to. Embeds: {{recipient name}} */
 "ATTACHMENT_APPROVAL_MESSAGE_TO_FORMAT" = "Повідомлення до %@";
 
 /* Label for 'send' button in the 'attachment approval' dialog. */
-"ATTACHMENT_APPROVAL_SEND_BUTTON" = "Відправити";
+"ATTACHMENT_APPROVAL_SEND_BUTTON" = "Надіслати";
 
 /* Generic filename for an attachment with no known name */
-"ATTACHMENT_DEFAULT_FILENAME" = "Додаток";
+"ATTACHMENT_DEFAULT_FILENAME" = "Вкладення";
 
 /* The title of the 'attachment error' alert. */
 "ATTACHMENT_ERROR_ALERT_TITLE" = "Помилка надсилання долучення";
@@ -275,7 +275,7 @@
 "ATTACHMENT_ERROR_MISSING_DATA" = "Долучення порожнє.";
 
 /* Accessibility hint describing what you can do with the attachment button */
-"ATTACHMENT_HINT" = "Вибрати медіа для відправлення";
+"ATTACHMENT_HINT" = "Вибрати медіа для надсилання";
 
 /* A button to open the camera from the Attachment Keyboard */
 "ATTACHMENT_KEYBOARD_CAMERA" = "Камера";
@@ -293,10 +293,10 @@
 "ATTACHMENT_KEYBOARD_LOCATION" = "Розташування";
 
 /* A string indicating to the user that they'll be able to send photos from this view once they enable photo access. */
-"ATTACHMENT_KEYBOARD_NO_PHOTO_ACCESS" = "Надайте доступ до ваших фото в Параметрах для можливості відправлення.";
+"ATTACHMENT_KEYBOARD_NO_PHOTO_ACCESS" = "Надайте доступ до ваших фото в Параметрах для можливості надсилання.";
 
 /* A string indicating to the user that once they take photos, they'll be able to send them from this view. */
-"ATTACHMENT_KEYBOARD_NO_PHOTOS" = "Після того як ви зробите фото, ви зможете відправляти нещодавні фото тут.";
+"ATTACHMENT_KEYBOARD_NO_PHOTOS" = "Як тільки ви зробите знімок, ви зможете надіслати нещодавні фото тут.";
 
 /* A button to select a payment from the Attachment Keyboard */
 "ATTACHMENT_KEYBOARD_PAYMENT" = "Платіж";
@@ -338,7 +338,7 @@
 "AUDIO_ACTIVITY_PLAYBACK_NAME_AUDIO_MESSAGE" = "Звукове повідомлення";
 
 /* Accessibility label for placing an audio call */
-"AUDIO_CALL_LABEL" = "Голосовий дзвінок";
+"AUDIO_CALL_LABEL" = "Голосовий виклик";
 
 /* action sheet button title to enable built in speaker during a call */
 "AUDIO_ROUTE_BUILT_IN_SPEAKER" = "Динамік";
@@ -350,7 +350,7 @@
 "AVATAR_EDIT_VIEW_COLOR_SEGMENT" = "Колір";
 
 /* Segment indicating the user can edit the text of the avatar */
-"AVATAR_EDIT_VIEW_TEXT_SEGMENT" = "Опис";
+"AVATAR_EDIT_VIEW_TEXT_SEGMENT" = "Текст";
 
 /* Text indicating the user can select an avatar from their camera */
 "AVATAR_SETTINGS_VIEW_CAMERA_BUTTON" = "камера";
@@ -368,58 +368,58 @@
 "BACK_BUTTON" = "Назад";
 
 /* Section header for badge view section in the badge configuration page */
-"BADGE_CONFIGURATION_BADGE_SECTION_TITLE" = "Мої емблеми";
+"BADGE_CONFIGURATION_BADGE_SECTION_TITLE" = "Мої відзнаки";
 
 /* The title for the badge configuration page */
-"BADGE_CONFIGURATION_TITLE" = "Емблеми";
+"BADGE_CONFIGURATION_TITLE" = "Відзнаки";
 
 /* Text prompting the user to become a signal sustainer */
 "BADGE_DETAILS_BECOME_A_SUSTAINER" = "Стати підтримувачем";
 
 /* Text prompting the user to boost */
-"BADGE_DETAILS_GIVE_A_BOOST" = "Надати Signal можливість розвитку";
+"BADGE_DETAILS_GIVE_A_BOOST" = "Надайте Signal можливість розвитку";
 
 /* String explaing to the user that their boost badge has expired on the badge expiry sheetsheet. */
-"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "Your Boost badge has expired and is no longer visible on your profile.\n\nYou can keep using Signal but to support technology that is built for you, consider becoming a sustainer by making a monthly donation.";
+"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "Термін дії вашої відзнаки розвитку завершився і вона більше не показуватиметься у вашому профілі.\n\nВи можете й надалі користуватися Signal, але для підтримки технології, створеної для вас, подумайте про регулярний щомісячний внесок.";
 
 /* String explaing to the user that their boost badge has expired while they are a current subscription sustainer on the badge expiry sheetsheet. */
-"BADGE_EXIPRED_BOOST_CURRENT_SUSTAINER_BODY_FORMAT" = "Строк дії Емблеми розвитку сплив та вона більше не показуватиметься у вашому профілі.\n\nВи можете знов активувати свою емблему розвитку на 30 днів за допомогою одного внеску.";
+"BADGE_EXIPRED_BOOST_CURRENT_SUSTAINER_BODY_FORMAT" = "Термін дії відзнаки розвитку завершився і вона більше не показуватиметься у вашому профілі.\n\nВи можете знов активувати свою відзнаку розвитку на 30 днів, зробивши одноразовий внесок.";
 
 /* String explaing to the user that their subscription badge has expired on the badge expiry sheetsheet. Embed {badge name}. */
-"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Your recurring monthly donation was automatically cancelled because you were inactive for too long. Your %@ badge is no longer visible on your profile.\n\nYou can keep using Signal but to support the app and reactivate your badge, renew now.";
+"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Ваш регулярний щомісячний платіж було автоматично скасовано, оскільки ви занадто довго були неактивні. Відзнака %@ більше не показуватиметься у вашому профілі.\n\nВи можете й надалі користуватися Signal, але для підтримки програми та відновлення вашої відзнаки, необхідно поновити внесок.";
 
 /* Button title for boost on the badge expiration sheet, used if the user is not already a sustainer. */
 "BADGE_EXPIRED_BOOST_RENEWAL_BUTTON" = "Стати підтримувачем";
 
 /* Button title for boost on the badge expiration sheet, used if the user is already a sustainer. */
-"BADGE_EXPIRED_BOOST_RENEWAL_BUTTON_SUSTAINER" = "Додати пришвидшення";
+"BADGE_EXPIRED_BOOST_RENEWAL_BUTTON_SUSTAINER" = "Продовжити підтримку";
 
 /* Title for boost on the badge expiration sheet. */
-"BADGE_EXPIRED_BOOST_TITLE" = "Строк дії емблеми сплив";
+"BADGE_EXPIRED_BOOST_TITLE" = "Термін дії відзнаки завершився";
 
 /* Button title for subscription on the badge expiration sheet. */
 "BADGE_EXPIRED_SUBSCRIPTION_RENEWAL_BUTTON" = "Поновити передплату";
 
 /* Title for subscription on the badge expiration sheet. */
-"BADGE_EXPIRED_SUBSCRIPTION_TITLE" = "Monthly Donation Cancelled";
+"BADGE_EXPIRED_SUBSCRIPTION_TITLE" = "Щомісячний внесок скасовано";
 
 /* Title for boost on the thank you sheet. */
-"BADGE_THANKS_BOOST_TITLE" = "Дякуємо за можливість розвиватись!";
+"BADGE_THANKS_BOOST_TITLE" = "Дякуємо за підтримку!";
 
 /* Label prompting the user to display the new badge on their profile on the badge thank you sheet. */
-"BADGE_THANKS_DISPLAY_ON_PROFILE_LABEL" = "Показувати в обліковому записі";
+"BADGE_THANKS_DISPLAY_ON_PROFILE_LABEL" = "Показувати в профілі";
 
 /* Label prompting the user to feature the new badge on their profile on the badge thank you sheet. */
-"BADGE_THANKS_MAKE_FEATURED" = "Зробити емблемою, що показується";
+"BADGE_THANKS_MAKE_FEATURED" = "Зробити обраною відзнакою";
 
 /* Title for subscription on the thank you sheet. */
 "BADGE_THANKS_SUBSCRIPTION_TITLE" = "Дякуємо за вашу підтримку!";
 
 /* Footer explaining that only one badge can be featured at a time on the thank you sheet. */
-"BADGE_THANKS_TOGGLE_FOOTER" = "Коли у вас більше однієї емблеми, ви можете обирати, яку саме показувати у своєму обліковому записі.";
+"BADGE_THANKS_TOGGLE_FOOTER" = "Коли у вас більше однієї відзнаки, ви можете обрати, яку саме показувати у своєму профілі.";
 
 /* String explaing to the user that they've earned a badge on the badge thank you sheet. Embed {badge name}. */
-"BADGE_THANKS_YOU_EARNED_FORMAT" = "You’ve earned a %@ badge. Display this badge on your profile to build awareness for donating to Signal.";
+"BADGE_THANKS_YOU_EARNED_FORMAT" = "Ви заробили відзнаку %@. Покажіть її у своєму профілі, щоб повідомити про підтримку Signal.";
 
 /* Accessibility label for banner close button */
 "BANNER_CLOSE_ACCESSIBILITY_LABEL" = "Закрити банер";
@@ -452,16 +452,16 @@
 "BLOCK_LIST_UNBLOCK_BUTTON" = "Розблокувати";
 
 /* An explanation of what unblocking a contact means. */
-"BLOCK_LIST_UNBLOCK_CONTACT_MESSAGE" = "Ви зможете відправляти повідомлення та дзвонити один одному.";
+"BLOCK_LIST_UNBLOCK_CONTACT_MESSAGE" = "Ви зможете надсилати повідомлення та дзвонити один одному.";
 
 /* Action sheet body when confirming you want to unblock a group */
-"BLOCK_LIST_UNBLOCK_GROUP_BODY" = "Учасники зможуть додати вас до групи.";
+"BLOCK_LIST_UNBLOCK_GROUP_BODY" = "Учасники зможуть додати вас до групи знову.";
 
 /* An explanation of what unblocking a group means. */
 "BLOCK_LIST_UNBLOCK_GROUP_MESSAGE" = "Учасники групи зможуть знову додати вас до неї.";
 
 /* Action sheet title when confirming you want to unblock a group. */
-"BLOCK_LIST_UNBLOCK_GROUP_TITLE" = "Розблокувати групу?";
+"BLOCK_LIST_UNBLOCK_GROUP_TITLE" = "Розблокувати цю групу?";
 
 /* A format for the 'unblock conversation' action sheet title. Embeds the {{conversation title}}. */
 "BLOCK_LIST_UNBLOCK_TITLE_FORMAT" = "Розблокувати %@?";
@@ -470,7 +470,7 @@
 "BLOCK_LIST_VIEW_BLOCK_BUTTON" = "Заблокувати";
 
 /* The message format of the 'conversation blocked' alert. Embeds the {{conversation title}}. */
-"BLOCK_LIST_VIEW_BLOCKED_ALERT_MESSAGE_FORMAT" = "%@ заблоковано.";
+"BLOCK_LIST_VIEW_BLOCKED_ALERT_MESSAGE_FORMAT" = "%@ було заблоковано.";
 
 /* The title of the 'user blocked' alert. */
 "BLOCK_LIST_VIEW_BLOCKED_ALERT_TITLE" = "Користувач заблокований";
@@ -485,7 +485,7 @@
 "BLOCK_LIST_VIEW_CANT_BLOCK_SELF_ALERT_TITLE" = "Помилка";
 
 /* Alert title after unblocking a group or 1:1 chat. Embeds the {{conversation title}}. */
-"BLOCK_LIST_VIEW_UNBLOCKED_ALERT_TITLE_FORMAT" = "%@ розблоковано.";
+"BLOCK_LIST_VIEW_UNBLOCKED_ALERT_TITLE_FORMAT" = "%@ було розблоковано.";
 
 /* Alert body after unblocking a group. */
 "BLOCK_LIST_VIEW_UNBLOCKED_GROUP_ALERT_BODY" = "Учасники зможуть додати вас до групи.";
@@ -500,16 +500,16 @@
 "BOOST_VIEW_AMOUNT_LABEL" = "Обрати валюту";
 
 /* The body text for the donate to signal view */
-"BOOST_VIEW_BODY" = "Make a one-time donation and earn a Boost badge for 30 days.";
+"BOOST_VIEW_BODY" = "Зробіть одноразовий внесок і заробіть відзнаку розвитку на 30 днів.";
 
 /* The body text for the donate to signal view, embeds {{Expiration}} */
-"BOOST_VIEW_BODY_WITH_EXPIRATION_FORMAT" = "Строк дії вашої Емблеми розвитку спливає %@.";
+"BOOST_VIEW_BODY_WITH_EXPIRATION_FORMAT" = "Термін дії вашої відзнаки розвитку завершується %@.";
 
 /* Default text for the custom amount field of the boost view. */
 "BOOST_VIEW_CUSTOM_AMOUNT_PLACEHOLDER" = "Власна сума";
 
 /* Text explaining there are other ways to donate on the boost view. */
-"BOOST_VIEW_OTHER_WAYS" = "Більше опцій для сплати";
+"BOOST_VIEW_OTHER_WAYS" = "Більше варіантів сплати";
 
 /* Error text notifying the user they must select a large amount on the donate to signal view */
 "BOOST_VIEW_SELECT_A_LARGER_AMOUNT" = "Оберіть більшу суму для внеску";
@@ -521,7 +521,7 @@
 "BOOST_VIEW_SELECT_AN_AMOUNT" = "Оберіть розмір внеску";
 
 /* Title for the donate to signal view */
-"BOOST_VIEW_TITLE" = "Надати Signal можливість розвитку";
+"BOOST_VIEW_TITLE" = "Підтримайте Signal";
 
 /* Label for the 'add' button. */
 "BUTTON_ADD" = "Додати";
@@ -554,7 +554,7 @@
 "BUTTON_NOT_NOW" = "Не зараз";
 
 /* Label for the 'okay' button. */
-"BUTTON_OKAY" = "Добре";
+"BUTTON_OKAY" = "Гаразд";
 
 /* Label for the 'previous' button. */
 "BUTTON_PREVIOUS" = "Назад";
@@ -578,7 +578,7 @@
 "BUTTON_UNMUTE" = "Сповіщати";
 
 /* Label for the 'view' button. */
-"BUTTON_VIEW" = "Детальніше";
+"BUTTON_VIEW" = "Переглянути";
 
 /* Label for the 'yes' button. */
 "BUTTON_YES" = "Так";
@@ -587,22 +587,22 @@
 "CALL_AGAIN_BUTTON_TITLE" = "Перетелефонувати";
 
 /* notification body */
-"CALL_AUDIO_INCOMING_NOTIFICATION_BODY" = "📞 Вхідний дзвінок…";
+"CALL_AUDIO_INCOMING_NOTIFICATION_BODY" = "📞 Вхідний голосовий виклик…";
 
 /* notification body for a missed call in the last 24 hours. Embeds {{time}}, e.g. '3:30 PM'. */
-"CALL_AUDIO_MISSED_24_HOURS_NOTIFICATION_BODY_FORMAT" = "📞 Пропущено голосовий виклик о %@";
+"CALL_AUDIO_MISSED_24_HOURS_NOTIFICATION_BODY_FORMAT" = "📞 Пропущений голосовий виклик о %@";
 
 /* notification body for a call that was just missed */
-"CALL_AUDIO_MISSED_NOTIFICATION_BODY" = "📞 Пропущений дзвінок";
+"CALL_AUDIO_MISSED_NOTIFICATION_BODY" = "📞 Пропущений виклик";
 
 /* notification body for a missed call from more than a week ago. Embeds {{short date}}, e.g. '6/28'. */
-"CALL_AUDIO_MISSED_PAST_NOTIFICATION_BODY_FORMAT" = "📞 Пропущено голосовий виклик %@";
+"CALL_AUDIO_MISSED_PAST_NOTIFICATION_BODY_FORMAT" = "📞 Пропущений голосовий виклик %@";
 
 /* notification body for a missed call from the last week. Embeds {{weekday}}, e.g. 'Monday'. */
-"CALL_AUDIO_MISSED_WEEK_NOTIFICATION_BODY_FORMAT" = "📞 Пропущено голосовий виклик у %@";
+"CALL_AUDIO_MISSED_WEEK_NOTIFICATION_BODY_FORMAT" = "📞 Пропущений голосовий виклик у %@";
 
 /* Alert message when calling and permissions for microphone are missing */
-"CALL_AUDIO_PERMISSION_MESSAGE" = "Щоб телефонувати та записувати голосові повідомлення в Signal, надайте програмі доступ до мікрофона в налаштуваннях iOS.";
+"CALL_AUDIO_PERMISSION_MESSAGE" = "Для викликів та запису голосових повідомлень в Signal, надайте програмі доступ до мікрофона в параметрах iOS.";
 
 /* Alert title when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_TITLE" = "Потрібен доступ до мікрофона";
@@ -629,19 +629,19 @@
 "CALL_USER_ALERT_TITLE" = "Зателефонувати?";
 
 /* notification body */
-"CALL_VIDEO_INCOMING_NOTIFICATION_BODY" = "📹 Вхідний відео дзвінок…";
+"CALL_VIDEO_INCOMING_NOTIFICATION_BODY" = "📹 Вхідний відеовиклик…";
 
 /* notification body for a missed call in the last 24 hours. Embeds {{time}}, e.g. '3:30 PM'. */
-"CALL_VIDEO_MISSED_24_HOURS_NOTIFICATION_BODY_FORMAT" = "📹 Пропущено відеовиклик о %@";
+"CALL_VIDEO_MISSED_24_HOURS_NOTIFICATION_BODY_FORMAT" = "📹 Пропущений відеовиклик о %@";
 
 /* notification body for a call that was just missed */
-"CALL_VIDEO_MISSED_NOTIFICATION_BODY" = "📹 Пропущений відео дзвінок";
+"CALL_VIDEO_MISSED_NOTIFICATION_BODY" = "📹 Пропущений відеовиклик";
 
 /* notification body for a missed call from more than a week ago. Embeds {{short date}}, e.g. '6/28'. */
-"CALL_VIDEO_MISSED_PAST_NOTIFICATION_BODY_FORMAT" = "📹 Пропущено відеовиклик %@";
+"CALL_VIDEO_MISSED_PAST_NOTIFICATION_BODY_FORMAT" = "📹 Пропущений відеовиклик %@";
 
 /* notification body for a missed call from the last week. Embeds {{weekday}}, e.g. 'Monday'. */
-"CALL_VIDEO_MISSED_WEEK_NOTIFICATION_BODY_FORMAT" = "📹 Пропущено відеовиклик у %@";
+"CALL_VIDEO_MISSED_WEEK_NOTIFICATION_BODY_FORMAT" = "📹 Пропущений відеовиклик у %@";
 
 /* label for accepting incoming video calls as audio  only */
 "CALL_VIEW_ACCEPT_INCOMING_CALL_AUDIO_ONLY_LABEL" = "Відповісти без відео";
@@ -1103,10 +1103,10 @@
 "CONVERSATION_SETTINGS_AUDIO_CALL_BUTTON" = "аудіо";
 
 /* Footer string for a contact's badges in conversation settings */
-"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Отримайте емблеми для свого облікового запису підтримуючи Signal. Торкніться емблеми, щоб дізнатись більше.";
+"CONVERSATION_SETTINGS_BADGES_FOOTER" = "Отримуйте відзнаки для свого профілю, підтримуючи Signal. Торкніться відзнаки, щоб дізнатися більше.";
 
 /* Header title for a contact's badges in conversation settings */
-"CONVERSATION_SETTINGS_BADGES_HEADER" = "Емблеми";
+"CONVERSATION_SETTINGS_BADGES_HEADER" = "Відзнаки";
 
 /* Footer text for the 'block and leave' section of contact conversation settings view. */
 "CONVERSATION_SETTINGS_BLOCK_AND_LEAVE_SECTION_CONTACT_FOOTER" = "Ви більше не отримуватимете повідомлень чи оновлень від цього користувача.";
@@ -1331,19 +1331,19 @@
 "CUSTOM_CHAT_COLOR_SETTINGS_TOOLTIP" = "Потягніть для зміни напрямку градієнту";
 
 /* Button to run the database integrity check */
-"DATABASE_INTEGRITY_CHECK_ACTION_RUN" = "Run";
+"DATABASE_INTEGRITY_CHECK_ACTION_RUN" = "Виконати";
 
 /* Message for alert before running a database integrity check */
-"DATABASE_INTEGRITY_CHECK_MESSAGE" = "This may take a while (several minutes or more) depending on how much you have used Signal. It is safe to close Signal if it is taking too long.";
+"DATABASE_INTEGRITY_CHECK_MESSAGE" = "Це може тривати деякий час (декілька хвилин), залежно від того, як довго ви користуєтеся Signal. Ви можете закрити Signal, якщо це триватиме надто довго.";
 
 /* Button to save database integrity check results to the debug log */
-"DATABASE_INTEGRITY_CHECK_RESULTS_ACTION_LOG" = "Add to Debug Log";
+"DATABASE_INTEGRITY_CHECK_RESULTS_ACTION_LOG" = "Додати журнал зневадження";
 
 /* Title for alert after running a database integrity check */
-"DATABASE_INTEGRITY_CHECK_RESULTS_TITLE" = "Integrity check results";
+"DATABASE_INTEGRITY_CHECK_RESULTS_TITLE" = "Результати інтеграційної перевірки";
 
 /* Title for alert before running a database integrity check */
-"DATABASE_INTEGRITY_CHECK_TITLE" = "Run database integrity check?";
+"DATABASE_INTEGRITY_CHECK_TITLE" = "Виконати інтеграційну перевірку бази даних?";
 
 /* Subtitle shown while the app is updating its database. */
 "DATABASE_VIEW_OVERLAY_SUBTITLE" = "Це може зайняти кілька хвилин.";
@@ -1619,7 +1619,7 @@
 "DISMISS_CONTEXT_MENU" = "Прибрати контекстне меню";
 
 /* Title for switch to enable sharing of badges publicly */
-"DISPLAY_BADGES_ON_PROFILE_SETTING" = "Показувати емблеми в обліковому записі";
+"DISPLAY_BADGES_ON_PROFILE_SETTING" = "Показувати відзнаки у профілі";
 
 /* Section title for the 'domain fronting country' view. */
 "DOMAIN_FRONTING_COUNTRY_VIEW_SECTION_HEADER" = "Країна для обходу цензури";
@@ -1634,7 +1634,7 @@
 "DONATION_RECEIPT_DETAILS" = "Деталі";
 
 /* Text on the button that exports the receipt */
-"DONATION_RECEIPT_EXPORT_RECEIPT_BUTTON" = "Share Receipt";
+"DONATION_RECEIPT_EXPORT_RECEIPT_BUTTON" = "Поділитися квитанцією";
 
 /* Footer text at the bottom of donation receipts */
 "DONATION_RECEIPT_FOOTER" = "Thank you for supporting Signal. Your contribution helps fuel the mission of developing open source privacy technology that protects free expression and enables secure global communication for millions around the world. If you’re a resident of the United States, please retain this receipt for your tax records. Signal Technology Foundation is a tax-exempt nonprofit organization in the United States under section 501c3 of the Internal Revenue Code. Our Federal Tax ID is 82-4506840.";
@@ -1883,10 +1883,10 @@
 "FAILED_VERIFICATION_TITLE" = "Не вдалося підтвердити код безпеки!";
 
 /* Section header directing user to select a badge */
-"FEATURED_BADGE_SECTION_HEADER" = "Обрати емблему";
+"FEATURED_BADGE_SECTION_HEADER" = "Обрати відзнаку";
 
 /* The title for the featured badge settings page */
-"FEATURED_BADGE_SETTINGS_TITLE" = "Показується емблема";
+"FEATURED_BADGE_SETTINGS_TITLE" = "Обрана відзнака";
 
 /* Button that marks user as verified after a successful fingerprint scan. */
 "FINGERPRINT_SCAN_VERIFY_BUTTON" = "Завірити";
@@ -1943,7 +1943,7 @@
 "GENERIC_INCOMING_MESSAGE_NOTIFICATION" = "Нове повідомлення!";
 
 /* Title for the 'Get Started' banner */
-"GET_STARTED_BANNER_TITLE" = "Давайте почнемо";
+"GET_STARTED_BANNER_TITLE" = "Розпочнімо";
 
 /* 'Get Started' button directing users to appearance */
 "GET_STARTED_CARD_APPEARANCE" = "Вигляд";
@@ -2966,13 +2966,13 @@
 "HOME_VIEW_DRAFT_PREFIX" = "Чернетка:";
 
 /* Format string for a label offering to start a new conversation with your contacts, if you have 1 Signal contact.  Embeds {{The name of 1 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "Дехто з ваших контактів вже користується Signal, включаючи %@.";
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_1_CONTACT_FORMAT" = "Дехто з ваших контактів користується Signal, включно з %@.";
 
 /* Format string for a label offering to start a new conversation with your contacts, if you have 2 Signal contacts.  Embeds {{The names of 2 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "Дехто з ваших контактів вже користується Signal, включаючи %@ та %@.";
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_2_CONTACTS_FORMAT" = "Дехто з ваших контактів користується Signal, включно з %@ та %@.";
 
 /* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Signal contacts.  Embeds {{The names of 3 of your Signal contacts}}. */
-"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "Дехто з ваших контактів вже користується Signal, включаючи %@, %@ та %@.";
+"HOME_VIEW_FIRST_CONVERSATION_OFFER_3_CONTACTS_FORMAT" = "Дехто з ваших контактів користується Signal, включно з %@, %@ та %@.";
 
 /* A label offering to start a new conversation with your contacts, if you have no Signal contacts. */
 "HOME_VIEW_FIRST_CONVERSATION_OFFER_NO_CONTACTS" = "Розпочати свій перший чат.";
@@ -3053,7 +3053,7 @@
 "INBOX_VIEW_ARCHIVE_MODE_REMINDER" = "Ці чати було заархівовано, отже ви побачите їх у Вхідних лише коли в них з'являться нові повідомлення.";
 
 /* Message shown in the conversation list when the inbox is empty. */
-"INBOX_VIEW_EMPTY_INBOX" = "Ще немає чатів.\nСтворіть перший, почав листування з другом.";
+"INBOX_VIEW_EMPTY_INBOX" = "Ще немає чатів.\nРозпочніть, написавши повідомлення друзям.";
 
 /* info message text in conversation view. {embeds callee name} */
 "INCOMING_CALL_FORMAT" = "%@ телефонував вам";
@@ -6188,7 +6188,7 @@
 "STORY_REPLY_YOU_AUTHOR" = "Ви";
 
 /* Title for the 'Badges' button in sustainer view. */
-"SUBSCRIBER_BADGES" = "Емблеми";
+"SUBSCRIBER_BADGES" = "Відзнаки";
 
 /* Title for the 'Manage Subscription' button in sustainer view. */
 "SUBSCRIBER_MANAGE_SUBSCRIPTION" = "Керувати передплатою";
@@ -6200,7 +6200,7 @@
 "SUBSCRIPTION_MEGAPHONE_ACTION" = "Дарувати";
 
 /* Body for subscription megaphone */
-"SUBSCRIPTION_MEGAPHONE_BODY" = "Signal is powered by people like you. Donate and receive a badge.";
+"SUBSCRIPTION_MEGAPHONE_BODY" = "Signal працює завдяки таким людям, як ви. Зробіть внесок та отримайте відзнаку.";
 
 /* Cancel text for subscription megaphone */
 "SUBSCRIPTION_MEGAPHONE_CANCEL" = "Не зараз";
@@ -6266,7 +6266,7 @@
 "SUPPORT_LOG_UPLOAD_IN_PROGRESS" = "Завантаження";
 
 /* First block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Signal is a nonprofit with no advertisers or investors, sustained only by the people who use and value it. Make a recurring monthly donation and receive a profile badge to share your support.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Signal — некомерційний, без рекламодавців чи інвесторів, підтримуваний лише людьми, які ним користуються та цінують. Зробіть регулярний щомісячний внесок та отримайте відзнаку профілю, повідомляючи про свою підтримку.";
 
 /* Second block of description text in read more sheet */
 "SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Signal is committed to developing open source privacy technology that protects free expression and enables secure global communication.\n\nYour donation fuels this cause and pays for the development and operations of an app used by millions for private communication. No ads. No trackers. No kidding.";
@@ -6284,7 +6284,7 @@
 "SUSTAINER_VIEW_ADD_BOOST" = "Сприяти розвитку Signal";
 
 /* Description text for sustainer view badges, embeds {{localized badge name}} */
-"SUSTAINER_VIEW_BADGE_DESCRIPTION" = "Отримати емблему %@";
+"SUSTAINER_VIEW_BADGE_DESCRIPTION" = "Отримати відзнаку %@";
 
 /* Sustainer view Cancel Subscription button title */
 "SUSTAINER_VIEW_CANCEL_SUBSCRIPTION" = "Скасувати передплату";
@@ -6293,19 +6293,19 @@
 "SUSTAINER_VIEW_CANCEL_SUBSCRIPTION_CONFIRMATION_CONFIRM" = "Підтвердження";
 
 /* Confirm Cancellation? Action sheet message */
-"SUSTAINER_VIEW_CANCEL_SUBSCRIPTION_CONFIRMATION_MESSAGE" = "Плата більше не стягуватиметься. Вашу емблему буде видалено з облікового запису після закінчення строку дії підписки.";
+"SUSTAINER_VIEW_CANCEL_SUBSCRIPTION_CONFIRMATION_MESSAGE" = "Плата більше не стягуватиметься. Вашу відзнаку буде вилучено з профілю після закінчення періоду передплати.";
 
 /* Confirm Cancellation? Action sheet title */
 "SUSTAINER_VIEW_CANCEL_SUBSCRIPTION_CONFIRMATION_TITLE" = "Підтвердити скасування?";
 
 /* Couldn't add badge text, embeds {{link to contact support}} */
-"SUSTAINER_VIEW_CANT_ADD_BADGE" = "Не вдалось додати емблему. %@";
+"SUSTAINER_VIEW_CANT_ADD_BADGE" = "Не вдалося додати відзнаку. %@";
 
 /* Action sheet message for Couldn't Add Badge sheet */
-"SUSTAINER_VIEW_CANT_ADD_BADGE_MESSAGE" = "Не вдалось додати емблему до вашого облікового запису. Будь ласка, зверніться до служби підтримки.";
+"SUSTAINER_VIEW_CANT_ADD_BADGE_MESSAGE" = "Не вдалося додати відзнаку до вашого облікового запису. Будь ласка, зверніться до служби підтримки.";
 
 /* Action sheet title for Couldn't Add Badge sheet */
-"SUSTAINER_VIEW_CANT_ADD_BADGE_TITLE" = "Не вдалось додати емблему";
+"SUSTAINER_VIEW_CANT_ADD_BADGE_TITLE" = "Не вдалося додати відзнаку";
 
 /* Contact support link */
 "SUSTAINER_VIEW_CONTACT_SUPPORT" = "Будь ласка, зверніться до служби підтримки.";

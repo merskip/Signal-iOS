@@ -155,7 +155,7 @@
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "Gabim";
 
 /* No comment provided by engineer. */
-"APP_LAUNCH_FAILURE_CHECK_DATABASE" = "Run Database Integrity Check";
+"APP_LAUNCH_FAILURE_CHECK_DATABASE" = "Kryej Kontroll Integriteti Baze të Dhënash";
 
 /* Error indicating that the app could not launch because the database could not be loaded. */
 "APP_LAUNCH_FAILURE_COULD_NOT_LOAD_DATABASE" = "S’u Ngarkuan Dot Baza e të Dhënave";
@@ -380,13 +380,13 @@
 "BADGE_DETAILS_GIVE_A_BOOST" = "Jepini Sinjalit Pak Fuqizim";
 
 /* String explaing to the user that their boost badge has expired on the badge expiry sheetsheet. */
-"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "Your Boost badge has expired and is no longer visible on your profile.\n\nYou can keep using Signal but to support technology that is built for you, consider becoming a sustainer by making a monthly donation.";
+"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "Stema juaj e Përforcimit ka skaduar dhe s’është më e dukshme te profili juaj.\n\nMund të vazhdoni të përdorni Signal-in, por që të përkrahni teknologjinë që është ndërtuar për ju, shihni mundësinë e bërjes një përkrahës, duke dhuruar çdo muaj.";
 
 /* String explaing to the user that their boost badge has expired while they are a current subscription sustainer on the badge expiry sheetsheet. */
 "BADGE_EXIPRED_BOOST_CURRENT_SUSTAINER_BODY_FORMAT" = "Stema juaj si Përforcues ka skaduar dhe s’është më e dukshme në profilin tuaj.\n\nStemën tuaj si Përforcues mund ta riaktivizoni për 30 ditë të tjera përmes një kontributi një herësh.";
 
 /* String explaing to the user that their subscription badge has expired on the badge expiry sheetsheet. Embed {badge name}. */
-"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Your recurring monthly donation was automatically cancelled because you were inactive for too long. Your %@ badge is no longer visible on your profile.\n\nYou can keep using Signal but to support the app and reactivate your badge, renew now.";
+"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Dhurimi juaj ripërsëritës i përmuajshëm u anulua automatikisht, ngaqë keni qenë jo aktiv për një kohë të gjatë. Stema juaj %@ s’është më e dukshme në profilin tuaj.\n\nMund të vazhdoni të përdorni Signal-in, por që të përkrahni aplikacionin dhe riaktivizoni stemën tuaj, rinovojeni tani.";
 
 /* Button title for boost on the badge expiration sheet, used if the user is not already a sustainer. */
 "BADGE_EXPIRED_BOOST_RENEWAL_BUTTON" = "Bëhuni një Mbështetës";
@@ -401,7 +401,7 @@
 "BADGE_EXPIRED_SUBSCRIPTION_RENEWAL_BUTTON" = "Rinovoni Pajtim";
 
 /* Title for subscription on the badge expiration sheet. */
-"BADGE_EXPIRED_SUBSCRIPTION_TITLE" = "Monthly Donation Cancelled";
+"BADGE_EXPIRED_SUBSCRIPTION_TITLE" = "Dhurim i Përmuajshëm i Anuluar";
 
 /* Title for boost on the thank you sheet. */
 "BADGE_THANKS_BOOST_TITLE" = "Faleminderit për Fuqizimin!";
@@ -419,7 +419,7 @@
 "BADGE_THANKS_TOGGLE_FOOTER" = "Kur keni më shumë se një stemë, mund të zgjidhni cila t’u shfaqet të tjerëve te profili juaj për ta parë.";
 
 /* String explaing to the user that they've earned a badge on the badge thank you sheet. Embed {badge name}. */
-"BADGE_THANKS_YOU_EARNED_FORMAT" = "You’ve earned a %@ badge. Display this badge on your profile to build awareness for donating to Signal.";
+"BADGE_THANKS_YOU_EARNED_FORMAT" = "Fituat një stemë %@. Shpaloseni këtë stemë në profilin tuaj, që të shtohet ndërgjegjësimi për dhurim te Signal-i.";
 
 /* Accessibility label for banner close button */
 "BANNER_CLOSE_ACCESSIBILITY_LABEL" = "Mbylle banderolën";
@@ -500,7 +500,7 @@
 "BOOST_VIEW_AMOUNT_LABEL" = "Caktoni monedhë";
 
 /* The body text for the donate to signal view */
-"BOOST_VIEW_BODY" = "Make a one-time donation and earn a Boost badge for 30 days.";
+"BOOST_VIEW_BODY" = "Bëni një dhurim një here dhe fitoni një stemë Përforcimi për 30 ditë.";
 
 /* The body text for the donate to signal view, embeds {{Expiration}} */
 "BOOST_VIEW_BODY_WITH_EXPIRATION_FORMAT" = "Stema juaj e Përforcimit do të skadojë më %@.";
@@ -1331,19 +1331,19 @@
 "CUSTOM_CHAT_COLOR_SETTINGS_TOOLTIP" = "Tërhiqeni që të ndryshohet drejtimi i gradientit";
 
 /* Button to run the database integrity check */
-"DATABASE_INTEGRITY_CHECK_ACTION_RUN" = "Run";
+"DATABASE_INTEGRITY_CHECK_ACTION_RUN" = "Kryeje";
 
 /* Message for alert before running a database integrity check */
-"DATABASE_INTEGRITY_CHECK_MESSAGE" = "This may take a while (several minutes or more) depending on how much you have used Signal. It is safe to close Signal if it is taking too long.";
+"DATABASE_INTEGRITY_CHECK_MESSAGE" = "Kjo mund të zgjasë ca (disa minuta, ose më tepër), në varësi se sa e keni përdorur Signal-in. Është pa rrezik të mbyllet Signal-i, nëse zgjat kjo.";
 
 /* Button to save database integrity check results to the debug log */
-"DATABASE_INTEGRITY_CHECK_RESULTS_ACTION_LOG" = "Add to Debug Log";
+"DATABASE_INTEGRITY_CHECK_RESULTS_ACTION_LOG" = "Shtoje te Regjistër Diagnostikimesh";
 
 /* Title for alert after running a database integrity check */
-"DATABASE_INTEGRITY_CHECK_RESULTS_TITLE" = "Integrity check results";
+"DATABASE_INTEGRITY_CHECK_RESULTS_TITLE" = "Përfundime kontrolli integriteti";
 
 /* Title for alert before running a database integrity check */
-"DATABASE_INTEGRITY_CHECK_TITLE" = "Run database integrity check?";
+"DATABASE_INTEGRITY_CHECK_TITLE" = "Të kryhet kontroll integriteti baze të dhënash?";
 
 /* Subtitle shown while the app is updating its database. */
 "DATABASE_VIEW_OVERLAY_SUBTITLE" = "Kjo mund të hajë ca minuta.";
@@ -1634,13 +1634,13 @@
 "DONATION_RECEIPT_DETAILS" = "Hollësi";
 
 /* Text on the button that exports the receipt */
-"DONATION_RECEIPT_EXPORT_RECEIPT_BUTTON" = "Share Receipt";
+"DONATION_RECEIPT_EXPORT_RECEIPT_BUTTON" = "Eksporto Dëftesë";
 
 /* Footer text at the bottom of donation receipts */
-"DONATION_RECEIPT_FOOTER" = "Thank you for supporting Signal. Your contribution helps fuel the mission of developing open source privacy technology that protects free expression and enables secure global communication for millions around the world. If you’re a resident of the United States, please retain this receipt for your tax records. Signal Technology Foundation is a tax-exempt nonprofit organization in the United States under section 501c3 of the Internal Revenue Code. Our Federal Tax ID is 82-4506840.";
+"DONATION_RECEIPT_FOOTER" = "Faleminderit për përkrahjen e Signal-it. Kontributi juaj ndihmon të ushqehet misioni i zhvillimit me burim të hapët i teknologjisë së privatësisë që mbron shprehjen e lirë dhe bën të mundur komunikim global për miliona vetë anembanë botës. Nëse jeni një banues në ShBA, ju lutemi, mbajeni këtë dëftesë për deklarimin e taksave. Signal Technology Foundation është një ent jofitimprurës i përjashtuar nga taksat në ShBA, sipas ndarjes 501c3 të Kodit Mbi të Ardhurat e Brendshme. ID-ja jonë Federale e Taksave është 82–4506840.";
 
 /* Title for one-time donation receipts */
-"DONATION_RECEIPT_ONE_TIME" = "One-time";
+"DONATION_RECEIPT_ONE_TIME" = "Një herë";
 
 /* Title for recurring donation receipts */
 "DONATION_RECEIPT_RECURRING" = "E ripërsëritshme";
@@ -1649,10 +1649,10 @@
 "DONATION_RECEIPT_TITLE" = "Dëftesë dhurimi";
 
 /* Section title for donation type on receipts */
-"DONATION_RECEIPT_TYPE" = "Type";
+"DONATION_RECEIPT_TYPE" = "Lloj";
 
 /* Title of view where you can see all of your donation receipts, or button to take you there */
-"DONATION_RECEIPTS" = "Donation Receipts";
+"DONATION_RECEIPTS" = "Dëftesa Dhurimesh";
 
 /* Text at the bottom of the donation receipts list, telling users that receipts might not be available */
 "DONATION_RECEIPTS_MIGHT_BE_MISSING_IF_YOU_REINSTALLED" = "Nëse keni riinstaluar Signal-in, dëftesat prej dhurimesh të mëparshme s’do të duken më.";
@@ -4640,13 +4640,13 @@
 "QUOTED_REPLY_ORIGINAL_MESSAGE_REMOTELY_SOURCED" = "S’u gjet mesazhi origjinal.";
 
 /* Header label that appears above quoted messages when the quoted content was includes a reaction to your own story. */
-"QUOTED_REPLY_REACTION_TO_OWN_STORY" = "Reacted to your story";
+"QUOTED_REPLY_REACTION_TO_OWN_STORY" = "Reagoi ndaj historisë tuaj";
 
 /* Header label that appears above quoted messages when the quoted content was includes a reaction to a story. Embeds {{ story author name }} */
-"QUOTED_REPLY_REACTION_TO_STORY_FORMAT" = "Reacted to %@’s story";
+"QUOTED_REPLY_REACTION_TO_STORY_FORMAT" = "Reagoi ndaj historisë së %@";
 
 /* Message header when you are quoting a story. Embeds {{ story author name }} */
-"QUOTED_REPLY_STORY_AUTHOR_INDICATOR_FORMAT" = "%@ · Story";
+"QUOTED_REPLY_STORY_AUTHOR_INDICATOR_FORMAT" = "%@ · Histori";
 
 /* Indicates this message is a quoted reply to an attachment of unknown type. */
 "QUOTED_REPLY_TYPE_ATTACHMENT" = "Bashkëngjitje";
@@ -5468,7 +5468,7 @@
 "SETTINGS_NOTIFICATIONS" = "Njoftime";
 
 /* Title for the 'one-time donation' link in settings. */
-"SETTINGS_ONE_TIME_DONATION" = "One-time Donation";
+"SETTINGS_ONE_TIME_DONATION" = "Dhurim Një Herë";
 
 /* Label for the 'agree to payments terms' button in the 'activate payments confirmation' UI in the payment settings. */
 "SETTINGS_PAYMENTS_ACTIVATE_PAYMENTS_CONFIRM_AGREE" = "Aktivizoje";
@@ -5984,7 +5984,7 @@
 "SETTINGS_SHARING_SUGGESTIONS_NOTIFICATIONS_FOOTER" = "Lejojini iOS-it hyrje te kontakte dhe fjalosje Signal, për veçori të tilla si shkëmbim sugjerimesh dhe njoftime.";
 
 /* Title for the 'monthly donation' link in settings. */
-"SETTINGS_SUBSCRIPTION" = "Monthly Donation";
+"SETTINGS_SUBSCRIPTION" = "Dhurim Mujor";
 
 /* Label for the 'enable registration lock' switch of the privacy settings. */
 "SETTINGS_TWO_FACTOR_AUTH_SWITCH_LABEL" = "Kyçje Regjistrimi";
@@ -6200,7 +6200,7 @@
 "SUBSCRIPTION_MEGAPHONE_ACTION" = "Dhuroni";
 
 /* Body for subscription megaphone */
-"SUBSCRIPTION_MEGAPHONE_BODY" = "Signal is powered by people like you. Donate and receive a badge.";
+"SUBSCRIPTION_MEGAPHONE_BODY" = "Signal-i bazohet në njerëz si ju. Dhuroni dhe merrni një stemë.";
 
 /* Cancel text for subscription megaphone */
 "SUBSCRIPTION_MEGAPHONE_CANCEL" = "Jo Tani";
@@ -6266,13 +6266,13 @@
 "SUPPORT_LOG_UPLOAD_IN_PROGRESS" = "Po ngarkohet";
 
 /* First block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Signal is a nonprofit with no advertisers or investors, sustained only by the people who use and value it. Make a recurring monthly donation and receive a profile badge to share your support.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Signal-i është një ent jofitimprurës, pa reklamues për të apo investues, i bazuar vetëm te njerëzit që e përdorin dhe vlerësojnë. Bëni një dhurim mujor ripërsëritës dhe merrni një stemë profili për t\’u treguar të tjerëve përkrahjen tuaj.";
 
 /* Second block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Signal is committed to developing open source privacy technology that protects free expression and enables secure global communication.\n\nYour donation fuels this cause and pays for the development and operations of an app used by millions for private communication. No ads. No trackers. No kidding.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Signal-i është i përkushtuar ndaj zhvillimit të teknologjish privatësie me burim të hapët, që mbrojnë shprehjen e lirë dhe bëjnë të mundur komunikim global të siguruar. \n\nDhurimi juaj ushqen këtë kauzë dhe paguan për zhvillimin dhe operacionet e lidhura me një aplikacion të përdorur nga miliona vetë për komunikim privat. Pa reklama. Pa gjurmues. Pa shaka.";
 
 /* Title for the signal sustainer read more view */
-"SUSTAINER_READ_MORE_TITLE" = "Support technology that is built for you—not for your data—by joining the community that sustains it.";
+"SUSTAINER_READ_MORE_TITLE" = "Përkrahni teknologjinë që është ngritur për ju - jo për të dhënat tuaja - duke u bërë pjesë e bashkësisë që e mbështet atë.";
 
 /* Why Contribute title for the signal sustainer read more view */
 "SUSTAINER_READ_MORE_WHY_CONTRIBUTE" = "Pse të Dhurohet?";
@@ -6338,7 +6338,7 @@
 "SUSTAINER_VIEW_PROCESSING_TRANSACTION" = "Po përpunohet Transaksioni…";
 
 /* Read More tappable text in sustainer view body */
-"SUSTAINER_VIEW_READ_MORE" = "Read more.";
+"SUSTAINER_VIEW_READ_MORE" = "Lexoni më tepër.";
 
 /* Renewal date text for sustainer view level, embeds {{renewal date}} */
 "SUSTAINER_VIEW_RENEWAL" = "Rinovohet më %@";
@@ -6365,7 +6365,7 @@
 "SUSTAINER_VIEW_UPDATE_SUBSCRIPTION_CONFIRMATION_UPDATE" = "Përditësoje";
 
 /* The body text for the signal sustainer view */
-"SUSTAINER_VIEW_WHY_DONATE_BODY" = "Make a recurring monthly donation to Signal to support technology built for you, not your data.";
+"SUSTAINER_VIEW_WHY_DONATE_BODY" = "Bëni një dhurim përsëritës mujor për Signal-in që të përkrahni teknologji të ndërtuar për ju, jo për të dhënat tuaja.";
 
 /* Label for 'off' state of a switch control. */
 "SWITCH_OFF" = "Off";

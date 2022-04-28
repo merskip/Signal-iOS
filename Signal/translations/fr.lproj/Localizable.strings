@@ -374,7 +374,7 @@
 "BADGE_CONFIGURATION_TITLE" = "Macarons";
 
 /* Text prompting the user to become a signal sustainer */
-"BADGE_DETAILS_BECOME_A_SUSTAINER" = "Devenir un soutien";
+"BADGE_DETAILS_BECOME_A_SUSTAINER" = "Devenir donateur mensuel";
 
 /* Text prompting the user to boost */
 "BADGE_DETAILS_GIVE_A_BOOST" = "Donnez un Coup de pouce à Signal";
@@ -401,7 +401,7 @@
 "BADGE_EXPIRED_SUBSCRIPTION_RENEWAL_BUTTON" = "Renouveler l’abonnement";
 
 /* Title for subscription on the badge expiration sheet. */
-"BADGE_EXPIRED_SUBSCRIPTION_TITLE" = "Monthly Donation Cancelled";
+"BADGE_EXPIRED_SUBSCRIPTION_TITLE" = "Don mensuel résilié";
 
 /* Title for boost on the thank you sheet. */
 "BADGE_THANKS_BOOST_TITLE" = "Merci pour le Coup de pouce !";
@@ -1004,7 +1004,7 @@
 "CONTEXT_MENU_DELETE_MESSAGE" = "Supprimer";
 
 /* Context menu button title */
-"CONTEXT_MENU_DETAILS" = "Renseignements";
+"CONTEXT_MENU_DETAILS" = "Info";
 
 /* Context menu button title */
 "CONTEXT_MENU_FORWARD_MESSAGE" = "Transférer";
@@ -1124,7 +1124,7 @@
 "CONVERSATION_SETTINGS_EDIT" = "Modifier";
 
 /* Label for 'edit attributes access' action in conversation settings view. */
-"CONVERSATION_SETTINGS_EDIT_ATTRIBUTES_ACCESS" = "Modifier les renseignements du groupe";
+"CONVERSATION_SETTINGS_EDIT_ATTRIBUTES_ACCESS" = "Modifier les informations du groupe";
 
 /* Label for button that sets 'group attributes access' to 'administrators-only'. */
 "CONVERSATION_SETTINGS_EDIT_ATTRIBUTES_ACCESS_ALERT_ADMINISTRATORS_BUTTON" = "Les administrateurs";
@@ -1409,7 +1409,7 @@
 "DEBUG_LOG_GITHUB_ISSUE_ALERT_TITLE" = "Redirection vers GitHub";
 
 /* Accessibility label for the ? vector asset used to get info about debug logs */
-"DEBUG_LOG_INFO_BUTTON" = "Renseignements sur les journaux de débogage";
+"DEBUG_LOG_INFO_BUTTON" = "Informations sur les journaux de débogage";
 
 /* Title for the action sheet 'delete' action of the 'delete account confirmation' view controller. */
 "DELETE_ACCOUNT_CONFIRMATION_ACTION_SHEEET_ACTION" = "Supprimer le compte";
@@ -1427,7 +1427,7 @@
 "DELETE_ACCOUNT_CONFIRMATION_DELETE_FAILED" = "Échec de suppression du compte. Assurez-vous que le Wi-Fi ou les données mobiles sont activés, puis réessayez.";
 
 /* Description for the 'delete account' confirmation view. */
-"DELETE_ACCOUNT_CONFIRMATION_DESCRIPTION" = "Les renseignements de votre compte, votre profil et tous vos messages seront supprimés.";
+"DELETE_ACCOUNT_CONFIRMATION_DESCRIPTION" = "Les informations de votre compte, votre profil et tous vos messages seront supprimés.";
 
 /* Indicates the work we are doing while deleting the account */
 "DELETE_ACCOUNT_CONFIRMATION_IN_PROGRESS" = "Suppression du compte…";
@@ -1640,7 +1640,7 @@
 "DONATION_RECEIPT_FOOTER" = "Thank you for supporting Signal. Your contribution helps fuel the mission of developing open source privacy technology that protects free expression and enables secure global communication for millions around the world. If you’re a resident of the United States, please retain this receipt for your tax records. Signal Technology Foundation is a tax-exempt nonprofit organization in the United States under section 501c3 of the Internal Revenue Code. Our Federal Tax ID is 82-4506840.";
 
 /* Title for one-time donation receipts */
-"DONATION_RECEIPT_ONE_TIME" = "One-time";
+"DONATION_RECEIPT_ONE_TIME" = "Une fois";
 
 /* Title for recurring donation receipts */
 "DONATION_RECEIPT_RECURRING" = "Périodique";
@@ -1664,7 +1664,7 @@
 "EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_BODY" = "Vous pouvez accorder l’accès dans l’appli Réglages d’iOS.";
 
 /* Alert title for when the user has just tried to edit a contacts after declining to give Signal contacts permissions */
-"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Signal a besoin d’accéder aux contacts pour modifier les renseignements des contacts";
+"EDIT_CONTACT_WITHOUT_CONTACTS_PERMISSION_ALERT_TITLE" = "Signal a besoin d’accéder aux contacts pour modifier les informations des contacts";
 
 /* The navbar title for the 'update group' view. */
 "EDIT_GROUP_DEFAULT_TITLE" = "Modifier le groupe";
@@ -1985,13 +1985,13 @@
 "GO_TO_SETTINGS_BUTTON" = "Aller dans Réglages";
 
 /* Message indicating that the access to the group's attributes was changed by the local user. Embeds {{new access level}}. */
-"GROUP_ACCESS_ATTRIBUTES_UPDATED_BY_LOCAL_USER_FORMAT" = "Vous avez changé qui peut modifier les renseignements du groupe en « %@ ».";
+"GROUP_ACCESS_ATTRIBUTES_UPDATED_BY_LOCAL_USER_FORMAT" = "Vous avez changé qui peut modifier les informations du groupe en « %@ ».";
 
 /* Message indicating that the access to the group's attributes was changed by a remote user. Embeds {{ %1$@ user who changed the access, %2$@ new access level}}. */
-"GROUP_ACCESS_ATTRIBUTES_UPDATED_BY_REMOTE_USER_FORMAT" = "%1$@ a changé qui peut modifier les renseignements du groupe en « %2$@ ».";
+"GROUP_ACCESS_ATTRIBUTES_UPDATED_BY_REMOTE_USER_FORMAT" = "%1$@ a changé qui peut modifier les informations du groupe en « %2$@ ».";
 
 /* Message indicating that the access to the group's attributes was changed. Embeds {{new access level}}. */
-"GROUP_ACCESS_ATTRIBUTES_UPDATED_FORMAT" = "Les renseignements du groupe peuvent être changés par « %@ ».";
+"GROUP_ACCESS_ATTRIBUTES_UPDATED_FORMAT" = "Les informations du groupe peuvent être changées par « %@ ».";
 
 /* Description of the 'admins only' access level. */
 "GROUP_ACCESS_LEVEL_ADMINISTRATORS" = "Les administrateurs";
@@ -3110,7 +3110,7 @@
 "KEY_COMMAND_ATTACHMENTS" = "Afficher les fichiers joints";
 
 /* A keyboard command to open the current conversation's settings. */
-"KEY_COMMAND_CONVERSATION_INFO" = "Accéder aux renseignements de la conversation";
+"KEY_COMMAND_CONVERSATION_INFO" = "Accéder aux informations de la conversation";
 
 /* A keyboard command to focus the current conversation's input field. */
 "KEY_COMMAND_FOCUS_COMPOSER" = "Accéder à la barre de saisie";
@@ -3788,7 +3788,7 @@
 "ONBOARDING_2FA_SKIP_AND_CREATE_NEW_PIN" = "Ignorer et créer un nouveau NIP";
 
 /* Explanation for the skip pin entry action sheet during onboarding. */
-"ONBOARDING_2FA_SKIP_PIN_ENTRY_MESSAGE" = "Si vous ne vous souvenez pas de votre NIP, vous pouvez en créer un nouveau. Vous pouvez vous inscrire et utiliser votre compte, mais vous perdrez certains paramètres enregistrés tels que les renseignements de votre profil.";
+"ONBOARDING_2FA_SKIP_PIN_ENTRY_MESSAGE" = "Si vous ne vous souvenez pas de votre NIP, vous pouvez en créer un nouveau. Vous pouvez vous inscrire et utiliser votre compte, mais vous perdrez certains paramètres enregistrés tels que les informations de votre profil.";
 
 /* Title for the skip pin entry action sheet during onboarding. */
 "ONBOARDING_2FA_SKIP_PIN_ENTRY_TITLE" = "Ignorer la saisie du NIP ?";
@@ -3857,7 +3857,7 @@
 "ONBOARDING_PHONE_NUMBER_VALIDATION_WARNING" = "Le numéro de téléphone est invalide. Pour vous inscrire, veuillez saisir un numéro de téléphone valide.";
 
 /* Explanation of the 'onboarding pin attempts exhausted' view when reglock is disabled. */
-"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "Vous avez épuisé tous vos essais de NIP, mais vous pouvez encore accéder à votre compte Signal en créant un nouveau NIP. Afin de protéger vos données personnelles et votre sécurité, votre compte sera restauré sans renseignements de profil enregistrés ni préférences.";
+"ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_EXPLANATION" = "Vous avez épuisé tous vos essais de NIP, mais vous pouvez encore accéder à votre compte Signal en créant un nouveau NIP. Afin de protéger vos données personnelles et votre sécurité, votre compte sera restauré sans informations de profil enregistrées ni préférences.";
 
 /* Label for the 'learn more' link when reglock is disabled in the 'onboarding pin attempts exhausted' view. */
 "ONBOARDING_PIN_ATTEMPTS_EXHAUSTED_LEARN_MORE" = "En apprendre davantage sur les NIP";
@@ -4202,7 +4202,7 @@
 "PENDING_GROUP_MEMBERS_REVOKE_LOCAL_INVITE_CONFIRMATION_TITLE_1_FORMAT" = "Révoquer l’invitation au groupe pour « %@ » ?";
 
 /* Footer for the 'invites by other group members' section of the 'member requests and invites' view. */
-"PENDING_GROUP_MEMBERS_SECTION_FOOTER_INVITES_FROM_OTHER_MEMBERS" = "Les détails des personnes invitées par d’autres membres du groupe ne sont pas affichés. Si les invités choisissent de se joindre au groupe, leurs renseignements seront alors communiqués au groupe. Ils ne verront aucun message dans le groupe avant de s’y être joints.";
+"PENDING_GROUP_MEMBERS_SECTION_FOOTER_INVITES_FROM_OTHER_MEMBERS" = "Les détails des personnes invitées par d’autres membres du groupe ne sont pas affichés. Si les invités choisissent de se joindre au groupe, leurs informations seront alors communiquées au groupe. Ils ne verront aucun message dans le groupe avant de s’y être joints.";
 
 /* Footer for the 'pending member requests' section of the 'member requests and invites' view. Embeds {{ the name of the group }}. */
 "PENDING_GROUP_MEMBERS_SECTION_FOOTER_PENDING_MEMBER_REQUESTS_FORMAT" = "Les personnes de cette liste tentent de se joindre à « %@ » grâce au lien du groupe.";
@@ -4364,7 +4364,7 @@
 "PIN_CREATION_ERROR_TITLE" = "Échec de création du NIP";
 
 /* The explanation in the 'pin creation' view. */
-"PIN_CREATION_EXPLANATION" = "Les NIP renforcent par le chiffrement les renseignements enregistrés dans Signal afin que vous seul puissiez y accéder. Votre profil, vos paramètres et vos contacts seront restaurés quand vous réinstallerez Signal. Vous n’aurez pas besoin de votre NIP pour ouvrir l’appli.";
+"PIN_CREATION_EXPLANATION" = "Les NIP renforcent par le chiffrement les informations enregistrées dans Signal afin que vous seul puissiez y accéder. Votre profil, vos paramètres et vos contacts seront restaurés quand vous réinstallerez Signal. Vous n’aurez pas besoin de votre NIP pour ouvrir l’appli.";
 
 /* Learn more action on the pin creation view */
 "PIN_CREATION_LEARN_MORE" = "En apprendre davantage les NIP";
@@ -4727,13 +4727,13 @@
 "REGISTER_2FA_FORGOT_SVR_PIN_ALERT_MESSAGE" = "Votre NIP est un code à quatre chiffres ou plus que vous avez créé et qui peut être numérique ou alphanumérique. Si vous avez oublié votre NIP, vous devrez attendre sept jours pour réinscrire votre compte.";
 
 /* Alert body for a forgotten SVR (V2) PIN when the user doesn't have reglock */
-"REGISTER_2FA_FORGOT_SVR_PIN_WITHOUT_REGLOCK_ALERT_MESSAGE" = "Votre NIP est un code à quatre chiffres ou plus que vous avez créé et qui peut être numérique ou alphanumérique. Si vous avez oublié votre NIP, vous pouvez en créer un nouveau. Vous pouvez vous inscrire et utiliser votre compte, mais vous perdrez certains paramètres enregistrés tels que les renseignements de votre profil.";
+"REGISTER_2FA_FORGOT_SVR_PIN_WITHOUT_REGLOCK_ALERT_MESSAGE" = "Votre NIP est un code à quatre chiffres ou plus que vous avez créé et qui peut être numérique ou alphanumérique. Si vous avez oublié votre NIP, vous pouvez en créer un nouveau. Vous pouvez vous inscrire et utiliser votre compte, mais vous perdrez certains paramètres enregistrés tels que les informations de votre profil.";
 
 /* Alert body for a forgotten V1 PIN */
 "REGISTER_2FA_FORGOT_V1_PIN_ALERT_MESSAGE" = "Votre NIP est un code numérique à quatre chiffres que vous avez créé Si vous avez oublié votre NIP, vous devrez attendre sept jours pour réinscrire votre compte.";
 
 /* Alert message explaining what happens if you get your pin wrong and have multiple attempts remaining 'two-factor auth pin' with reglock disabled. */
-"REGISTER_2FA_INVALID_PIN_ALERT_MESSAGE_PLURAL_FORMAT" = "Il vous reste %lu essais. Si vous épuisez le nombre limite d’essais, vous pouvez créer un nouveau NIP. Vous pouvez vous inscrire et utiliser votre compte, mais vous perdrez certains paramètres enregistrés tels que les renseignements de votre profil.";
+"REGISTER_2FA_INVALID_PIN_ALERT_MESSAGE_PLURAL_FORMAT" = "Il vous reste %lu essais. Si vous épuisez le nombre limite d’essais, vous pouvez créer un nouveau NIP. Vous pouvez vous inscrire et utiliser votre compte, mais vous perdrez certains paramètres enregistrés tels que les informations de votre profil.";
 
 /* Alert message explaining what happens if you get your pin wrong and have multiple attempts remaining 'two-factor auth pin' with reglock enabled. */
 "REGISTER_2FA_INVALID_PIN_ALERT_MESSAGE_REGLOCK_PLURAL_FORMAT" = "Il vous reste %lu essais. Si vous épuisez le nombre limite d’essais, votre compte sera verrouillé. Après sept jours d’inactivité, vous pourrez vous réinscrire sans votre NIP. Votre compte sera effacé et son contenu supprimé.";
@@ -4742,7 +4742,7 @@
 "REGISTER_2FA_INVALID_PIN_ALERT_MESSAGE_REGLOCK_SINGLE" = "Il vous reste un essai. Si vous épuisez le nombre limite d’essais, votre compte sera verrouillé. Après sept jours d’inactivité, vous pourrez vous réinscrire sans votre NIP. Votre compte sera effacé et son contenu supprimé.";
 
 /* Alert message explaining what happens if you get your pin wrong and have one attempt remaining 'two-factor auth pin' with reglock disabled. */
-"REGISTER_2FA_INVALID_PIN_ALERT_MESSAGE_SINGLE" = "Il vous reste un essai. Si vous épuisez le nombre limite d’essais, vous pouvez créer un nouveau NIP. Vous pouvez vous inscrire et utiliser votre compte, mais vous perdrez certains paramètres enregistrés tels que les renseignements de votre profil.";
+"REGISTER_2FA_INVALID_PIN_ALERT_MESSAGE_SINGLE" = "Il vous reste un essai. Si vous épuisez le nombre limite d’essais, vous pouvez créer un nouveau NIP. Vous pouvez vous inscrire et utiliser votre compte, mais vous perdrez certains paramètres enregistrés tels que les informations de votre profil.";
 
 /* Alert title explaining what happens if you forget your 'two-factor auth pin'. */
 "REGISTER_2FA_INVALID_PIN_ALERT_TITLE" = "Le NIP est erroné";
@@ -5888,7 +5888,7 @@
 "SETTINGS_PIN_REMINDER_SWITCH_LABEL" = "Rappels du NIP";
 
 /* Footer for the 'PINs' section of the privacy settings. */
-"SETTINGS_PINS_FOOTER" = "Les NIP conservent les renseignements stockés dans Signal sous forme chiffrée afin que vous seul puissiez y accéder. Votre NIP ne peut pas être récupéré. Votre profil, votre configuration et vos contacts seront restaurés quand vous réinstallez Signal.";
+"SETTINGS_PINS_FOOTER" = "Les NIP conservent les informations stockées dans Signal sous forme chiffrée afin que vous seul puissiez y accéder. Votre NIP ne peut pas être récupéré. Votre profil, votre configuration et vos contacts seront restaurés quand vous réinstallez Signal.";
 
 /* Label for the 'pins' item of the privacy settings when the user does have a pin. */
 "SETTINGS_PINS_ITEM" = "Changer votre NIP";
@@ -6200,7 +6200,7 @@
 "SUBSCRIPTION_MEGAPHONE_ACTION" = "Faire un don";
 
 /* Body for subscription megaphone */
-"SUBSCRIPTION_MEGAPHONE_BODY" = "Signal is powered by people like you. Donate and receive a badge.";
+"SUBSCRIPTION_MEGAPHONE_BODY" = "Signal est alimenté par des gens comme vous. Contribuez et recevez un macaron.";
 
 /* Cancel text for subscription megaphone */
 "SUBSCRIPTION_MEGAPHONE_CANCEL" = "Pas maintenant";
@@ -6236,7 +6236,7 @@
 "SUPPORT_EMAIL_HID_LABEL_FORMAT" = "HID : %@";
 
 /* Localized divider for support request emails internal information */
-"SUPPORT_EMAIL_INFO_DIVIDER" = "--- Renseignements d’assistance ---";
+"SUPPORT_EMAIL_INFO_DIVIDER" = "--- Info d’assistance ---";
 
 /* Localized label for support request email iOS Version string (e.g. 13.4). Embeds {{ios version}}. */
 "SUPPORT_EMAIL_IOS_VERSION_LABEL_FORMAT" = "Version d’iOS : %@";
@@ -6266,7 +6266,7 @@
 "SUPPORT_LOG_UPLOAD_IN_PROGRESS" = "Chargement";
 
 /* First block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Signal is a nonprofit with no advertisers or investors, sustained only by the people who use and value it. Make a recurring monthly donation and receive a profile badge to share your support.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Signal est un organisme sans but lucratif, sans annonceurs ni investisseurs, soutenue uniquement par les gens qui l’utilisent et l’apprécient. Faites un don mensuel récurrent et recevez un macaron de profil pour afficher votre soutien.";
 
 /* Second block of description text in read more sheet */
 "SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Signal is committed to developing open source privacy technology that protects free expression and enables secure global communication.\n\nYour donation fuels this cause and pays for the development and operations of an app used by millions for private communication. No ads. No trackers. No kidding.";
@@ -6365,7 +6365,7 @@
 "SUSTAINER_VIEW_UPDATE_SUBSCRIPTION_CONFIRMATION_UPDATE" = "Mise à jour";
 
 /* The body text for the signal sustainer view */
-"SUSTAINER_VIEW_WHY_DONATE_BODY" = "Make a recurring monthly donation to Signal to support technology built for you, not your data.";
+"SUSTAINER_VIEW_WHY_DONATE_BODY" = "Faites un don mensuel récurrent à Signal pour soutenir une technologie conçue pour vous, pas pour vos données.";
 
 /* Label for 'off' state of a switch control. */
 "SWITCH_OFF" = "Désactivé";

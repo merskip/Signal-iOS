@@ -155,7 +155,7 @@
 "APP_LAUNCH_FAILURE_ALERT_TITLE" = "خطأ";
 
 /* No comment provided by engineer. */
-"APP_LAUNCH_FAILURE_CHECK_DATABASE" = "Run Database Integrity Check";
+"APP_LAUNCH_FAILURE_CHECK_DATABASE" = "تشغيل فحص سلامة قاعدة البيانات";
 
 /* Error indicating that the app could not launch because the database could not be loaded. */
 "APP_LAUNCH_FAILURE_COULD_NOT_LOAD_DATABASE" = "يتعذّر تحميل قاعدة البيانات";
@@ -380,13 +380,13 @@
 "BADGE_DETAILS_GIVE_A_BOOST" = "دعم Signal ";
 
 /* String explaing to the user that their boost badge has expired on the badge expiry sheetsheet. */
-"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "Your Boost badge has expired and is no longer visible on your profile.\n\nYou can keep using Signal but to support technology that is built for you, consider becoming a sustainer by making a monthly donation.";
+"BADGE_EXIPRED_BOOST_BODY_FORMAT" = "لقد انتهت صلاحية شارة التعزيز، ولم تعد ظاهرة في ملفك الشخصي.\n\nيمكنك الاستمرار في استخدام Signal، لكن لدعم التكنولوجيا التي بُنيَت لأجلك، نطلب منك الانضمام لفئة الداعمين، وذلك عبر التبرع لنا شهريا.";
 
 /* String explaing to the user that their boost badge has expired while they are a current subscription sustainer on the badge expiry sheetsheet. */
 "BADGE_EXIPRED_BOOST_CURRENT_SUSTAINER_BODY_FORMAT" = "انتهت صلاحية شارة التعزيز، ولم تعد ظاهرة في ملفك الشخصي.\n\nيمكنك إعادة تنشيطها لمدة 30 يومًا بالمساهمة لمرة واحدة.";
 
 /* String explaing to the user that their subscription badge has expired on the badge expiry sheetsheet. Embed {badge name}. */
-"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "Your recurring monthly donation was automatically cancelled because you were inactive for too long. Your %@ badge is no longer visible on your profile.\n\nYou can keep using Signal but to support the app and reactivate your badge, renew now.";
+"BADGE_EXIPRED_SUBSCRIPTION_BODY_FORMAT" = "لقد أُلغيَ تبرعك الشهري الدوري تلقائيا، بسبب طول غياب نشاطك لفترة طويلة. لن تظهر بعد ذلك شارة %@ في ملفك الشخصي.\n\nيمكنك الاستمرار في استخدام Signal لدعم التطبيق وإعادة تفعيل شارتك، يُرجى التجديد الآن.";
 
 /* Button title for boost on the badge expiration sheet, used if the user is not already a sustainer. */
 "BADGE_EXPIRED_BOOST_RENEWAL_BUTTON" = "كن من الداعمين";
@@ -419,7 +419,7 @@
 "BADGE_THANKS_TOGGLE_FOOTER" = "عندما يكون لديك أكثر من شارة واحدة، يمكنك اختيار واحدة لتمييزها ليراها الآخرون في ملفك الشخصي.";
 
 /* String explaing to the user that they've earned a badge on the badge thank you sheet. Embed {badge name}. */
-"BADGE_THANKS_YOU_EARNED_FORMAT" = "You’ve earned a %@ badge. Display this badge on your profile to build awareness for donating to Signal.";
+"BADGE_THANKS_YOU_EARNED_FORMAT" = "لقد حصلت باستحقاق على شارة %@. يمكنك عرض هذه الشارة في حسابك لتحفيز الوعي بضرورة التبرع لـ Signal.";
 
 /* Accessibility label for banner close button */
 "BANNER_CLOSE_ACCESSIBILITY_LABEL" = "إغلاق اللافتة";
@@ -500,7 +500,7 @@
 "BOOST_VIEW_AMOUNT_LABEL" = "ضبط العملة";
 
 /* The body text for the donate to signal view */
-"BOOST_VIEW_BODY" = "Make a one-time donation and earn a Boost badge for 30 days.";
+"BOOST_VIEW_BODY" = "يُرجى التبرع مرة واحدة. سيمكنك ذلك من الحصول على شارة التعزيز لمدة 30 يوم.";
 
 /* The body text for the donate to signal view, embeds {{Expiration}} */
 "BOOST_VIEW_BODY_WITH_EXPIRATION_FORMAT" = "ستنتهي صلاحية شارة الدعم الخاصة بك يوم %@.";
@@ -590,16 +590,16 @@
 "CALL_AUDIO_INCOMING_NOTIFICATION_BODY" = "📞 مكالمة صوتية واردة...";
 
 /* notification body for a missed call in the last 24 hours. Embeds {{time}}, e.g. '3:30 PM'. */
-"CALL_AUDIO_MISSED_24_HOURS_NOTIFICATION_BODY_FORMAT" = "📞 Missed audio call at %@";
+"CALL_AUDIO_MISSED_24_HOURS_NOTIFICATION_BODY_FORMAT" = "📞مكالمة صوتية فائتة على الساعة %@";
 
 /* notification body for a call that was just missed */
 "CALL_AUDIO_MISSED_NOTIFICATION_BODY" = "📞 مكالمة صوتية فائتة";
 
 /* notification body for a missed call from more than a week ago. Embeds {{short date}}, e.g. '6/28'. */
-"CALL_AUDIO_MISSED_PAST_NOTIFICATION_BODY_FORMAT" = "📞 Missed audio call on %@";
+"CALL_AUDIO_MISSED_PAST_NOTIFICATION_BODY_FORMAT" = "📞مكالمة صوتية فائتة بتاريخ %@";
 
 /* notification body for a missed call from the last week. Embeds {{weekday}}, e.g. 'Monday'. */
-"CALL_AUDIO_MISSED_WEEK_NOTIFICATION_BODY_FORMAT" = "📞 Missed audio call on %@";
+"CALL_AUDIO_MISSED_WEEK_NOTIFICATION_BODY_FORMAT" = "📞مكالمة صوتية فائتة يوم %@";
 
 /* Alert message when calling and permissions for microphone are missing */
 "CALL_AUDIO_PERMISSION_MESSAGE" = "يُمكِنُك تفعيل الوصول للميكروفون من خلال ‫تطبيق إعدادات iOS‬، للتمكن من إجراء مكالمات وإرسال رسائل صوتية في Signal. ";
@@ -632,16 +632,16 @@
 "CALL_VIDEO_INCOMING_NOTIFICATION_BODY" = "‫📹 مكالمة بالصورة واردة...";
 
 /* notification body for a missed call in the last 24 hours. Embeds {{time}}, e.g. '3:30 PM'. */
-"CALL_VIDEO_MISSED_24_HOURS_NOTIFICATION_BODY_FORMAT" = "📹 Missed video call at %@";
+"CALL_VIDEO_MISSED_24_HOURS_NOTIFICATION_BODY_FORMAT" = "📞مكالمة مرئية فائتة على الساعة %@";
 
 /* notification body for a call that was just missed */
 "CALL_VIDEO_MISSED_NOTIFICATION_BODY" = "‫📹 مكالمة بالصورة فائتة";
 
 /* notification body for a missed call from more than a week ago. Embeds {{short date}}, e.g. '6/28'. */
-"CALL_VIDEO_MISSED_PAST_NOTIFICATION_BODY_FORMAT" = "📹 Missed video call on %@";
+"CALL_VIDEO_MISSED_PAST_NOTIFICATION_BODY_FORMAT" = "📞مكالمة مرئية فائتة على بتاريخ %@";
 
 /* notification body for a missed call from the last week. Embeds {{weekday}}, e.g. 'Monday'. */
-"CALL_VIDEO_MISSED_WEEK_NOTIFICATION_BODY_FORMAT" = "📹 Missed video call on %@";
+"CALL_VIDEO_MISSED_WEEK_NOTIFICATION_BODY_FORMAT" = "📞مكالمة مرئية فائتة يوم %@";
 
 /* label for accepting incoming video calls as audio  only */
 "CALL_VIEW_ACCEPT_INCOMING_CALL_AUDIO_ONLY_LABEL" = "أجِب بلا فيديو";
@@ -1331,19 +1331,19 @@
 "CUSTOM_CHAT_COLOR_SETTINGS_TOOLTIP" = "اسحب لتغيير اتجاه التدرج";
 
 /* Button to run the database integrity check */
-"DATABASE_INTEGRITY_CHECK_ACTION_RUN" = "Run";
+"DATABASE_INTEGRITY_CHECK_ACTION_RUN" = "تشغيل";
 
 /* Message for alert before running a database integrity check */
-"DATABASE_INTEGRITY_CHECK_MESSAGE" = "This may take a while (several minutes or more) depending on how much you have used Signal. It is safe to close Signal if it is taking too long.";
+"DATABASE_INTEGRITY_CHECK_MESSAGE" = "قد يتطلب هذا بعض الوقت (بضع دقائق أو أكثر)، وذلك حسب كمية استخدامك Signal. من باب الأمان، يُرجى إغلاق Signal إذا كان سيستغرق ذلك وقتا طويلا جدا.";
 
 /* Button to save database integrity check results to the debug log */
-"DATABASE_INTEGRITY_CHECK_RESULTS_ACTION_LOG" = "Add to Debug Log";
+"DATABASE_INTEGRITY_CHECK_RESULTS_ACTION_LOG" = "إضافة إلى سِجل التصحيح";
 
 /* Title for alert after running a database integrity check */
-"DATABASE_INTEGRITY_CHECK_RESULTS_TITLE" = "Integrity check results";
+"DATABASE_INTEGRITY_CHECK_RESULTS_TITLE" = "نتائج فحص السلامة";
 
 /* Title for alert before running a database integrity check */
-"DATABASE_INTEGRITY_CHECK_TITLE" = "Run database integrity check?";
+"DATABASE_INTEGRITY_CHECK_TITLE" = "تشغيل فحص سلامة قاعدة البيانات ؟";
 
 /* Subtitle shown while the app is updating its database. */
 "DATABASE_VIEW_OVERLAY_SUBTITLE" = "قد يستغرق ذلك بضع دقائق.";
@@ -1634,10 +1634,10 @@
 "DONATION_RECEIPT_DETAILS" = "التفاصيل";
 
 /* Text on the button that exports the receipt */
-"DONATION_RECEIPT_EXPORT_RECEIPT_BUTTON" = "Share Receipt";
+"DONATION_RECEIPT_EXPORT_RECEIPT_BUTTON" = "مشاركة الوصل";
 
 /* Footer text at the bottom of donation receipts */
-"DONATION_RECEIPT_FOOTER" = "Thank you for supporting Signal. Your contribution helps fuel the mission of developing open source privacy technology that protects free expression and enables secure global communication for millions around the world. If you’re a resident of the United States, please retain this receipt for your tax records. Signal Technology Foundation is a tax-exempt nonprofit organization in the United States under section 501c3 of the Internal Revenue Code. Our Federal Tax ID is 82-4506840.";
+"DONATION_RECEIPT_FOOTER" = "نشكرك على دعم Signal. تمكننا مساهمتك من الالتزام بمهمة تطوير تقنية خصوصية مفتوحة المصدر تحمي حرية التعبير وتتيح اتصالا عالميا آمنا للملايين عبر العالم. إذا كنت من المقيمين بالولايات المتحدة الأمريكية، يُرجى الاحتفاظ بهذا التوصيل للإدلاء به عند مصلحة الضرائب. إن ‫مؤسسة تكنولوجيا Signal‬ مؤسسة خيرية عمومية وغير ربحية، أُحدثَت بالولايات المتحدة اﻷمريكية، وهي معفية من الضرائب بموجب الفقرة 501c3 من قانون الإيرادات الداخلية. مُعرِّفنا الضريبي هو ‎.82-4506840‎";
 
 /* Title for one-time donation receipts */
 "DONATION_RECEIPT_ONE_TIME" = "مرة واحدة";
@@ -1649,7 +1649,7 @@
 "DONATION_RECEIPT_TITLE" = "وصولات التبرعات";
 
 /* Section title for donation type on receipts */
-"DONATION_RECEIPT_TYPE" = "Type";
+"DONATION_RECEIPT_TYPE" = "الصنف";
 
 /* Title of view where you can see all of your donation receipts, or button to take you there */
 "DONATION_RECEIPTS" = "وصولات التبرعات";
@@ -4643,10 +4643,10 @@
 "QUOTED_REPLY_REACTION_TO_OWN_STORY" = "التفاعلات مع قصتك";
 
 /* Header label that appears above quoted messages when the quoted content was includes a reaction to a story. Embeds {{ story author name }} */
-"QUOTED_REPLY_REACTION_TO_STORY_FORMAT" = "Reacted to %@’s story";
+"QUOTED_REPLY_REACTION_TO_STORY_FORMAT" = "تفاعل مع قصة %@";
 
 /* Message header when you are quoting a story. Embeds {{ story author name }} */
-"QUOTED_REPLY_STORY_AUTHOR_INDICATOR_FORMAT" = "%@ · Story";
+"QUOTED_REPLY_STORY_AUTHOR_INDICATOR_FORMAT" = "قصة  · %@";
 
 /* Indicates this message is a quoted reply to an attachment of unknown type. */
 "QUOTED_REPLY_TYPE_ATTACHMENT" = "مُرفق";
@@ -6146,13 +6146,13 @@
 "STORIES_FORWARD_STORY_ACTION" = "إعادة التوجيه";
 
 /* Context menu action to open the chat associated with the selected story */
-"STORIES_GO_TO_CHAT_ACTION" = "Go to Chat";
+"STORIES_GO_TO_CHAT_ACTION" = "الذهاب إلى المحادثة";
 
 /* Context menu action to hide the selected story */
-"STORIES_HIDE_STORY_ACTION" = "Hide Story";
+"STORIES_HIDE_STORY_ACTION" = "إخفاء القصة";
 
 /* Indicates that there are no recent stories to render */
-"STORIES_NO_RECENT_MESSAGES" = "No recent updates to show right now.";
+"STORIES_NO_RECENT_MESSAGES" = "لا توجد تحديثات أخيرة للعرض حاليا.";
 
 /* Indicates that this story has no replies yet */
 "STORIES_NO_REPLIES_YET" = "لا جواب حاليا";
@@ -6170,10 +6170,10 @@
 "STORY_NO_LONGER_AVAILABLE" = "لم تعد متاحة";
 
 /* Button for replying to a story with a single existing reply. */
-"STORY_REPLY_BUTTON_WITH_1_REPLY" = "<bold>1</bold> reply";
+"STORY_REPLY_BUTTON_WITH_1_REPLY" = "<bold>1</bold> رد";
 
 /* Button for replying to a story with N existing replies. {embeds the number of replies} */
-"STORY_REPLY_BUTTON_WITH_N_REPLIES_FORMAT" = "<bold>%@</bold> replies";
+"STORY_REPLY_BUTTON_WITH_N_REPLIES_FORMAT" = "<bold>%@</bold> ردود";
 
 /* Button for replying to a story with no existing replies. */
 "STORY_REPLY_BUTTON_WITH_NO_REPLIES" = "رد";
@@ -6266,13 +6266,13 @@
 "SUPPORT_LOG_UPLOAD_IN_PROGRESS" = "يَجري التَّحميل";
 
 /* First block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "Signal is a nonprofit with no advertisers or investors, sustained only by the people who use and value it. Make a recurring monthly donation and receive a profile badge to share your support.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_ONE" = "إن Signal غير ربحي، وبلا إعلانات ولا مستثمرين، يدعمه فقط الأشخاص الذين يستخدمونه ويقدرونه. نرجو منك التبرع بشكل شهري للحصول على شارة في حسابك لأجل مشاركة دعمك لنا مع الآخرين.";
 
 /* Second block of description text in read more sheet */
-"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "Signal is committed to developing open source privacy technology that protects free expression and enables secure global communication.\n\nYour donation fuels this cause and pays for the development and operations of an app used by millions for private communication. No ads. No trackers. No kidding.";
+"SUSTAINER_READ_MORE_DESCRIPTION_BLOCK_TWO" = "إن منظمة Signal ملتزمة بتطوير تكنولوجيا للخصوصية مفتوحة المصدر تحمي حرية التعبير وتجعل التواصل العالمي الآمن ممكناً.\n\nتدعم مساهمتك هذه القضية وتساعد في دفع تكلفة التطوير والعمليات اللازمة لتطبيق يستخدمه الملايين للتواصل الخاص. بلا إعلانات. بلا أدوات تتبع. إننا جادون حقا.";
 
 /* Title for the signal sustainer read more view */
-"SUSTAINER_READ_MORE_TITLE" = "Support technology that is built for you—not for your data—by joining the community that sustains it.";
+"SUSTAINER_READ_MORE_TITLE" = "يُرجى دعم التكنولوجيا المبنية لأجلك — لا لأجل بياناتك —، وذلك عبر الانضمام إلى المجتمع الداعم لـ Signal.";
 
 /* Why Contribute title for the signal sustainer read more view */
 "SUSTAINER_READ_MORE_WHY_CONTRIBUTE" = "لِماذا أتبرع؟";
@@ -6338,7 +6338,7 @@
 "SUSTAINER_VIEW_PROCESSING_TRANSACTION" = "جاري معالجة المعاملة...";
 
 /* Read More tappable text in sustainer view body */
-"SUSTAINER_VIEW_READ_MORE" = "Read more.";
+"SUSTAINER_VIEW_READ_MORE" = "قراءة المزيد";
 
 /* Renewal date text for sustainer view level, embeds {{renewal date}} */
 "SUSTAINER_VIEW_RENEWAL" = "يتجدد %@";
