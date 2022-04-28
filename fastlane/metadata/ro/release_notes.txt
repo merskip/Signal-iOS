@@ -1,2 +1,5 @@
-• Am restrâns puțin lucrurile pentru ca aplicația Signal să ocupe cu 25% mai puțin spațiu.
-• Am mai făcut unele optimizări pentru ca deschiderea conversațiilor de grup să fie foarte rapidă.
+• Sending a video in a chat? You can now see the duration before you hit send.
+• You can now view tax receipts for your Signal Sustainer and Boost donations. Receipts are generated locally for your privacy, and therefore will only be available for future donations. Thanks for supporting Signal!
+• We tweaked some text throughout the app to make things a little clearer.
+• We squashed a couple of annoying crashes.
+• Various other bugfixes and performance improvements help keep your app running smoothly.
